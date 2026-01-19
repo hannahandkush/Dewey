@@ -1,0 +1,1762 @@
+[
+    {
+        "title": "Dare Me",
+        "Genre": "Thriller",
+        "Large_Image_URL": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1342214694i/12982393.jpg",
+        "author first name": "Megan",
+        "author surname": "Abbott",
+        "rank": 1
+    },
+    {
+        "title": "The Fever",
+        "Genre": "Thriller",
+        "Large_Image_URL": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1381359885i/18656036.jpg",
+        "author first name": "Megan",
+        "author surname": "Abbott",
+        "rank": 2
+    },
+    {
+        "title": "The Cheat Sheet (The Cheat Sheet, #1)",
+        "Genre": "Romance",
+        "Large_Image_URL": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1624094827i/58100280.jpg",
+        "author first name": "Sarah      ",
+        "author surname": "Adams",
+        "rank": 3
+    },
+    {
+        "title": "Come As You Are",
+        "Genre": "Romance",
+        "Large_Image_URL": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1724450618i/60729369.jpg",
+        "author first name": "Dahlia",
+        "author surname": "Adler",
+        "rank": 4
+    },
+    {
+        "title": "Not in Search of Love",
+        "Genre": "Romance",
+        "Large_Image_URL": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1661029117i/62034407.jpg",
+        "author first name": "Kashish ",
+        "author surname": "Aggarwal",
+        "rank": 5
+    },
+    {
+        "title": "Yes No Maybe So",
+        "Genre": "Romance",
+        "Large_Image_URL": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1565194355i/43615530.jpg",
+        "author first name": "Becky",
+        "author surname": "Albertalli",
+        "rank": 6
+    },
+    {
+        "title": "I Kissed a Girl",
+        "Genre": "Romance",
+        "Large_Image_URL": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1614880480i/52914857.jpg",
+        "author first name": "Jennet",
+        "author surname": "Alexander",
+        "rank": 7
+    },
+    {
+        "title": "The Divine Comedy",
+        "Genre": "Classic",
+        "Large_Image_URL": "https://www.papertrue.com/blog/wp-content/uploads/2023/11/11The-Divine-Comedy-Book-Cover-400x600-1.jpg",
+        "author first name": "Dante",
+        "author surname": "Alighieri",
+        "rank": 8
+    },
+    {
+        "title": "The Cowboy's Christmas Family",
+        "Genre": "Romance",
+        "Large_Image_URL": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1437369918i/25363451.jpg",
+        "author first name": "Donna",
+        "author surname": "Alward",
+        "rank": 9
+    },
+    {
+        "title": "Annie's Song",
+        "Genre": "Romance",
+        "Large_Image_URL": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1325836635i/659600.jpg",
+        "author first name": "Catherine",
+        "author surname": "Anderson",
+        "rank": 10
+    },
+    {
+        "title": "I Know Why the Caged Bird Sings",
+        "Genre": "Classic",
+        "Large_Image_URL": "https://www.papertrue.com/blog/wp-content/uploads/2023/11/35Iknowhwythecagedbirdsings.jpg",
+        "author first name": "Maya",
+        "author surname": "Angelou",
+        "rank": 11
+    },
+    {
+        "title": "The American Roommate Experiment (Spanish Love Deception, #2)",
+        "Genre": "Romance",
+        "Large_Image_URL": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1642608820i/57514395.jpg",
+        "author first name": "Elena ",
+        "author surname": "Armas",
+        "rank": 12
+    },
+    {
+        "title": "The Spanish Love Deception (Love Deception, #1)",
+        "Genre": "Romance",
+        "Large_Image_URL": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1610900883i/54189398.jpg",
+        "author first name": "Elena ",
+        "author surname": "Armas",
+        "rank": 13
+    },
+    {
+        "title": "Cat's Eye",
+        "Genre": "Classic",
+        "Large_Image_URL": "https://www.papertrue.com/blog/wp-content/uploads/2023/11/40catseye.jpg",
+        "author first name": "Margaret",
+        "author surname": "Atwood",
+        "rank": 14
+    },
+    {
+        "title": "The Handmaid's Tale",
+        "Genre": "Classic",
+        "Large_Image_URL": "https://www.papertrue.com/blog/wp-content/uploads/2023/11/31handmaidstale.jpg",
+        "author first name": "Margaret",
+        "author surname": "Atwood",
+        "rank": 15
+    },
+    {
+        "title": "Pride and Prejudice",
+        "Genre": "Classic",
+        "Large_Image_URL": "https://www.papertrue.com/blog/wp-content/uploads/2023/11/1prideandprejudice.jpg",
+        "author first name": "Jane",
+        "author surname": "Austen",
+        "rank": 16
+    },
+    {
+        "title": "Fix Her Up (Hot & Hammered, #1)",
+        "Genre": "Romance",
+        "Large_Image_URL": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1541001833i/39854434.jpg",
+        "author first name": "Tessa",
+        "author surname": "Bailey",
+        "rank": 17
+    },
+    {
+        "title": "Hook, Line, and Sinker (Bellinger Sisters, #2)",
+        "Genre": "Romance",
+        "Large_Image_URL": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1627068858i/58283080.jpg",
+        "author first name": "Tessa",
+        "author surname": "Bailey",
+        "rank": 18
+    },
+    {
+        "title": "It Happened One Summer (Bellinger Sisters, #1)",
+        "Genre": "Romance",
+        "Large_Image_URL": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1604991895i/55659629.jpg",
+        "author first name": "Tessa",
+        "author surname": "Bailey",
+        "rank": 19
+    },
+    {
+        "title": "Window Shopping",
+        "Genre": "Romance",
+        "Large_Image_URL": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1631093429i/58943206.jpg",
+        "author first name": "Tessa",
+        "author surname": "Bailey",
+        "rank": 20
+    },
+    {
+        "title": "Boar Island (Anna Pigeon, #19)",
+        "Genre": "Thriller",
+        "Large_Image_URL": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1442242124i/26114418.jpg",
+        "author first name": "Nevada",
+        "author surname": "Barr",
+        "rank": 21
+    },
+    {
+        "title": "Borderline (Anna Pigeon, #15)",
+        "Genre": "Thriller",
+        "Large_Image_URL": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1441798281i/5460711.jpg",
+        "author first name": "Nevada",
+        "author surname": "Barr",
+        "rank": 22
+    },
+    {
+        "title": "Destroyer Angel (Anna Pigeon, #18)",
+        "Genre": "Thriller",
+        "Large_Image_URL": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1389414782i/17934372.jpg",
+        "author first name": "Nevada",
+        "author surname": "Barr",
+        "rank": 23
+    },
+    {
+        "title": "High Country (Anna Pigeon, #12)",
+        "Genre": "Thriller",
+        "Large_Image_URL": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1309288594i/86442.jpg",
+        "author first name": "Nevada",
+        "author surname": "Barr",
+        "rank": 24
+    },
+    {
+        "title": "Ill Wind (Anna Pigeon, #3)",
+        "Genre": "Thriller",
+        "Large_Image_URL": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1309207162i/86445.jpg",
+        "author first name": "Nevada",
+        "author surname": "Barr",
+        "rank": 25
+    },
+    {
+        "title": "Track of the Cat (Anna Pigeon, #1)",
+        "Genre": "Thriller",
+        "Large_Image_URL": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1326365792i/76706.jpg",
+        "author first name": "Nevada",
+        "author surname": "Barr",
+        "rank": 26
+    },
+    {
+        "title": "Winter Study (Anna Pigeon, #14)",
+        "Genre": "Thriller",
+        "Large_Image_URL": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1434549679i/2039223.jpg",
+        "author first name": "Nevada",
+        "author surname": "Barr",
+        "rank": 27
+    },
+    {
+        "title": "A Simple Favor",
+        "Genre": "Thriller",
+        "Large_Image_URL": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1468422073i/29938376.jpg",
+        "author first name": "Darcey",
+        "author surname": "Bell",
+        "rank": 28
+    },
+    {
+        "title": "A Show for Two",
+        "Genre": "Romance",
+        "Large_Image_URL": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1630569490i/58543750.jpg",
+        "author first name": "Tashie",
+        "author surname": "Bhuiyan",
+        "rank": 29
+    },
+    {
+        "title": "A Question of Sanity",
+        "Genre": "Thriller",
+        "Large_Image_URL": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1470231065i/31342752.jpg",
+        "author first name": "Katherine",
+        "author surname": "Black",
+        "rank": 30
+    },
+    {
+        "title": "Leverage",
+        "Genre": "Thriller",
+        "Large_Image_URL": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1620296584i/57961745.jpg",
+        "author first name": "Katherine",
+        "author surname": "Black",
+        "rank": 31
+    },
+    {
+        "title": "Nowhere Boulevard",
+        "Genre": "Thriller",
+        "Large_Image_URL": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1598574751i/55147855.jpg",
+        "author first name": "Katherine",
+        "author surname": "Black",
+        "rank": 32
+    },
+    {
+        "title": "Pedigree Crush with a Twisted Gene",
+        "Genre": "Thriller",
+        "Large_Image_URL": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1602585645i/55659264.jpg",
+        "author first name": "Katherine",
+        "author surname": "Black",
+        "rank": 33
+    },
+    {
+        "title": "A Breath After Drowning",
+        "Genre": "Thriller",
+        "Large_Image_URL": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1513224961i/34235951.jpg",
+        "author first name": "Alice",
+        "author surname": "Blanchard",
+        "rank": 34
+    },
+    {
+        "title": "Psycho",
+        "Genre": "Classic",
+        "Large_Image_URL": "https://www.papertrue.com/blog/wp-content/uploads/2023/11/12psycho.jpg",
+        "author first name": "Robert",
+        "author surname": "Bloch",
+        "rank": 35
+    },
+    {
+        "title": "A Thing of Dark Imaginings",
+        "Genre": "Thriller",
+        "Large_Image_URL": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1542687716i/42870048.jpg",
+        "author first name": "Roger Alan",
+        "author surname": "Bonner",
+        "rank": 36
+    },
+    {
+        "title": "Labyrinths",
+        "Genre": "Classic",
+        "Large_Image_URL": "https://www.papertrue.com/blog/wp-content/uploads/2023/11/33labrynths.jpg",
+        "author first name": "Jorge Luis",
+        "author surname": "Borges",
+        "rank": 37
+    },
+    {
+        "title": "In the Weeds (Lovelight, #2)",
+        "Genre": "Romance",
+        "Large_Image_URL": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1643416137i/60233443.jpg",
+        "author first name": "B.K.",
+        "author surname": "Borison",
+        "rank": 38
+    },
+    {
+        "title": "Back of Beyond (Highway Quartet, #1)",
+        "Genre": "Thriller",
+        "Large_Image_URL": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1433432146i/10134217.jpg",
+        "author first name": "C.J.",
+        "author surname": "Box",
+        "rank": 39
+    },
+    {
+        "title": "Below Zero (Joe Pickett, #9)",
+        "Genre": "Thriller",
+        "Large_Image_URL": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1442875874i/6061360.jpg",
+        "author first name": "C.J.",
+        "author surname": "Box",
+        "rank": 40
+    },
+    {
+        "title": "Blood Trail (Joe Pickett, #8)",
+        "Genre": "Thriller",
+        "Large_Image_URL": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1440027960i/2233882.jpg",
+        "author first name": "C.J.",
+        "author surname": "Box",
+        "rank": 41
+    },
+    {
+        "title": "Cold Wind (Joe Pickett, #11)",
+        "Genre": "Thriller",
+        "Large_Image_URL": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1440851407i/9408479.jpg",
+        "author first name": "C.J.",
+        "author surname": "Box",
+        "rank": 42
+    },
+    {
+        "title": "Force Of Nature (Joe Pickett, #12)",
+        "Genre": "Thriller",
+        "Large_Image_URL": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1327931222i/11890811.jpg",
+        "author first name": "C.J.",
+        "author surname": "Box",
+        "rank": 43
+    },
+    {
+        "title": "Free Fire (Joe Pickett, #7)",
+        "Genre": "Thriller",
+        "Large_Image_URL": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1402442595i/244099.jpg",
+        "author first name": "C.J.",
+        "author surname": "Box",
+        "rank": 44
+    },
+    {
+        "title": "In Plain Sight (Joe Pickett, #6)",
+        "Genre": "Thriller",
+        "Large_Image_URL": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1267324613i/7204686.jpg",
+        "author first name": "C.J.",
+        "author surname": "Box",
+        "rank": 45
+    },
+    {
+        "title": "Long Range (Joe Pickett, #20)",
+        "Genre": "Thriller",
+        "Large_Image_URL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1561600952l/52164797._SX50_SY75_.jpg",
+        "author first name": "C.J.",
+        "author surname": "Box",
+        "rank": 46
+    },
+    {
+        "title": "Open Season (Joe Pickett, #1)",
+        "Genre": "Thriller",
+        "Large_Image_URL": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1255789732i/244102.jpg",
+        "author first name": "C.J.",
+        "author surname": "Box",
+        "rank": 47
+    },
+    {
+        "title": "Out Of Range (Joe Pickett, #5)",
+        "Genre": "Thriller",
+        "Large_Image_URL": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1388234317i/983546.jpg",
+        "author first name": "C.J.",
+        "author surname": "Box",
+        "rank": 48
+    },
+    {
+        "title": "Paradise Valley (Highway Quartet, #4)",
+        "Genre": "Thriller",
+        "Large_Image_URL": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1483981907i/31450664.jpg",
+        "author first name": "C.J.",
+        "author surname": "Box",
+        "rank": 49
+    },
+    {
+        "title": "Savage Run (Joe Pickett, #2)",
+        "Genre": "Thriller",
+        "Large_Image_URL": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1351411381i/3657070.jpg",
+        "author first name": "C.J.",
+        "author surname": "Box",
+        "rank": 50
+    },
+    {
+        "title": "Stone Cold (Joe Pickett, #14)",
+        "Genre": "Thriller",
+        "Large_Image_URL": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1371521482i/18079649.jpg",
+        "author first name": "C.J.",
+        "author surname": "Box",
+        "rank": 51
+    },
+    {
+        "title": "The Bitterroots (Highway Quartet, #5)",
+        "Genre": "Thriller",
+        "Large_Image_URL": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1539020044i/41150373.jpg",
+        "author first name": "C.J.",
+        "author surname": "Box",
+        "rank": 52
+    },
+    {
+        "title": "The Disappeared (Joe Pickett, #18)",
+        "Genre": "Thriller",
+        "Large_Image_URL": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1498707746i/35534628.jpg",
+        "author first name": "C.J.",
+        "author surname": "Box",
+        "rank": 53
+    },
+    {
+        "title": "The Highway (Highway Quartet, #2)",
+        "Genre": "Thriller",
+        "Large_Image_URL": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1369569256i/16044982.jpg",
+        "author first name": "C.J.",
+        "author surname": "Box",
+        "rank": 54
+    },
+    {
+        "title": "Fahrenheit 451",
+        "Genre": "Classic",
+        "Large_Image_URL": "https://www.papertrue.com/blog/wp-content/uploads/2023/11/7F451.jpg",
+        "author first name": "Ray",
+        "author surname": "Bradbury",
+        "rank": 55
+    },
+    {
+        "title": "Blood on Their Hands",
+        "Genre": "Thriller",
+        "Large_Image_URL": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1646514536i/60555557.jpg",
+        "author first name": "Bob",
+        "author surname": "Brink",
+        "rank": 56
+    },
+    {
+        "title": "Talk Bookish to Me",
+        "Genre": "Romance",
+        "Large_Image_URL": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1605213082i/55004513.jpg",
+        "author first name": "Kate",
+        "author surname": "Bromley",
+        "rank": 57
+    },
+    {
+        "title": "The Girl in the Ice (Detective Erika Foster, #1)",
+        "Genre": "Thriller",
+        "Large_Image_URL": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1450369120i/28233082.jpg",
+        "author first name": "Robert",
+        "author surname": "Bryndza",
+        "rank": 58
+    },
+    {
+        "title": "The Master and Margarita",
+        "Genre": "Classic",
+        "Large_Image_URL": "https://www.papertrue.com/blog/wp-content/uploads/2023/11/25masterandmargarita.jpg",
+        "author first name": "Mikhail",
+        "author surname": "Bulgakov",
+        "rank": 59
+    },
+    {
+        "title": "A Clockwork Orange",
+        "Genre": "Classic",
+        "Large_Image_URL": "https://www.papertrue.com/blog/wp-content/uploads/2023/11/2A-Clockwork-Orange-Book-Cover-368x600-1.jpg",
+        "author first name": "Anthony",
+        "author surname": "Burgess",
+        "rank": 60
+    },
+    {
+        "title": "A Princess of Mars",
+        "Genre": "Classic",
+        "Large_Image_URL": "https://www.papertrue.com/blog/wp-content/uploads/2023/11/20princessofmars.jpg",
+        "author first name": "Edgar Rice",
+        "author surname": "Burroughs",
+        "rank": 61
+    },
+    {
+        "title": "Social Creature",
+        "Genre": "Thriller",
+        "Large_Image_URL": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1518794075i/34909789.jpg",
+        "author first name": "Tara Isabella",
+        "author surname": "Burton",
+        "rank": 62
+    },
+    {
+        "title": "Every Single Secret",
+        "Genre": "Thriller",
+        "Large_Image_URL": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1513785418i/36154689.jpg",
+        "author first name": "Emily",
+        "author surname": "Carpenter",
+        "rank": 63
+    },
+    {
+        "title": "The Bodyguard",
+        "Genre": "Romance",
+        "Large_Image_URL": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1637059607i/58724801.jpg",
+        "author first name": "Katherine",
+        "author surname": "Center",
+        "rank": 64
+    },
+    {
+        "title": "61 Hours (Jack Reacher, #14)",
+        "Genre": "Thriller",
+        "Large_Image_URL": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1320512665i/6977769.jpg",
+        "author first name": "Lee",
+        "author surname": "Child",
+        "rank": 65
+    },
+    {
+        "title": "Bad Luck and Trouble (Jack Reacher, #11)",
+        "Genre": "Thriller",
+        "Large_Image_URL": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1441133915i/108942.jpg",
+        "author first name": "Lee",
+        "author surname": "Child",
+        "rank": 66
+    },
+    {
+        "title": "Blue Moon (Jack Reacher #24)",
+        "Genre": "Thriller",
+        "Large_Image_URL": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1552271248i/44281518.jpg",
+        "author first name": "Lee",
+        "author surname": "Child",
+        "rank": 67
+    },
+    {
+        "title": "Persuader (Jack Reacher, #7)",
+        "Genre": "Thriller",
+        "Large_Image_URL": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1691603355i/6617104.jpg",
+        "author first name": "Lee",
+        "author surname": "Child",
+        "rank": 68
+    },
+    {
+        "title": "Too Much Time (Jack Reacher, #22.3)",
+        "Genre": "Thriller",
+        "Large_Image_URL": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1593636667i/35694363.jpg",
+        "author first name": "Lee",
+        "author surname": "Child",
+        "rank": 69
+    },
+    {
+        "title": "For Twice in My Life",
+        "Genre": "Romance",
+        "Large_Image_URL": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1654705651i/61236386.jpg",
+        "author first name": "Annette",
+        "author surname": "Christie",
+        "rank": 70
+    },
+    {
+        "title": "Love Lettering",
+        "Genre": "Romance",
+        "Large_Image_URL": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1558904735i/44792512.jpg",
+        "author first name": "Kate",
+        "author surname": "Clayborn",
+        "rank": 71
+    },
+    {
+        "title": "The Roommate (Shameless #1)",
+        "Genre": "Romance",
+        "Large_Image_URL": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1583339454i/45023611.jpg",
+        "author first name": "Rosie",
+        "author surname": "Danan",
+        "rank": 72
+    },
+    {
+        "title": "Well Met (Well Met, #1)",
+        "Genre": "Romance",
+        "Large_Image_URL": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1548353675i/43189874.jpg",
+        "author first name": "Jen",
+        "author surname": "DeLuca",
+        "rank": 73
+    },
+    {
+        "title": "Hedging Your Bets",
+        "Genre": "Romance",
+        "Large_Image_URL": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1684203540i/127281714.jpg",
+        "author first name": "Jayne",
+        "author surname": "Denker",
+        "rank": 74
+    },
+    {
+        "title": "The Rom-Com Agenda",
+        "Genre": "Romance",
+        "Large_Image_URL": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1663709164i/60784293.jpg",
+        "author first name": "Jayne",
+        "author surname": "Denker",
+        "rank": 75
+    },
+    {
+        "title": "Funny Feelings",
+        "Genre": "Romance",
+        "Large_Image_URL": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1648941309i/60739557.jpg",
+        "author first name": "Tarah",
+        "author surname": "DeWitt",
+        "rank": 76
+    },
+    {
+        "title": "Platform Seven",
+        "Genre": "Thriller",
+        "Large_Image_URL": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1552563080i/43345898.jpg",
+        "author first name": "Louise",
+        "author surname": "Doughty",
+        "rank": 77
+    },
+    {
+        "title": "The Sisters",
+        "Genre": "Thriller",
+        "Large_Image_URL": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1425149001i/25041402.jpg",
+        "author first name": "Claire",
+        "author surname": "Douglas",
+        "rank": 78
+    },
+    {
+        "title": "Portrait of a Scotsman (A League of Extraordinary Women, #3)",
+        "Genre": "Romance",
+        "Large_Image_URL": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1607447624i/55053187.jpg",
+        "author first name": "Evie",
+        "author surname": "Dunmore",
+        "rank": 79
+    },
+    {
+        "title": "The Summer Duchess (A Duchess for All Seasons Book 3)",
+        "Genre": "Romance",
+        "Large_Image_URL": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1529865698i/40625010.jpg",
+        "author first name": "Jillian",
+        "author surname": "Eaton",
+        "rank": 80
+    },
+    {
+        "title": "A Mother's Love",
+        "Genre": "Thriller",
+        "Large_Image_URL": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1708463387i/208921039.jpg",
+        "author first name": "Hazel",
+        "author surname": "Eggleton",
+        "rank": 81
+    },
+    {
+        "title": "Rules of Attraction (Perfect Chemistry, #2)",
+        "Genre": "Romance",
+        "Large_Image_URL": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1439792205i/7137775.jpg",
+        "author first name": "Simone",
+        "author surname": "Elkeles",
+        "rank": 82
+    },
+    {
+        "title": "The Secret She Kept",
+        "Genre": "Thriller",
+        "Large_Image_URL": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1587746969i/53256306.jpg",
+        "author first name": "J.S.",
+        "author surname": "Ellis",
+        "rank": 83
+    },
+    {
+        "title": "Theodore The Neighbour's Cat (Theodore: The Neighbour's Cat #1)",
+        "Genre": "Thriller",
+        "Large_Image_URL": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1601757360i/55118101.jpg",
+        "author first name": "J.S.",
+        "author surname": "Ellis",
+        "rank": 84
+    },
+    {
+        "title": "The Lying Woods",
+        "Genre": "Thriller",
+        "Large_Image_URL": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1523631705i/33803125.jpg",
+        "author first name": "Ashley",
+        "author surname": "Elston",
+        "rank": 85
+    },
+    {
+        "title": "The Woman in the Window",
+        "Genre": "Thriller",
+        "Large_Image_URL": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1502772174i/36043838.jpg",
+        "author first name": "A.J.",
+        "author surname": "Finn",
+        "rank": 86
+    },
+    {
+        "title": "The Wives",
+        "Genre": "Thriller",
+        "Large_Image_URL": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1555273893i/43262893.jpg",
+        "author first name": "Tarryn",
+        "author surname": "Fisher",
+        "rank": 87
+    },
+    {
+        "title": "The Great Gatsby",
+        "Genre": "Classic",
+        "Large_Image_URL": "https://www.papertrue.com/blog/wp-content/uploads/2023/11/14The-Great-Gatsby-Book-Cover-391x600-1.jpg",
+        "author first name": "F. Scott",
+        "author surname": "Fitzgerald",
+        "rank": 88
+    },
+    {
+        "title": "The Girls Weekend",
+        "Genre": "Thriller",
+        "Large_Image_URL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1582087738l/52001120._SX50_SY75_.jpg",
+        "author first name": "Jody",
+        "author surname": "Gehrman",
+        "rank": 89
+    },
+    {
+        "title": "Don't Kill Me Because I'm Beautiful: A Near Future Suspense thriller",
+        "Genre": "Thriller",
+        "Large_Image_URL": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1625187147i/58470004.jpg",
+        "author first name": "H.",
+        "author surname": "Gewirtz",
+        "rank": 90
+    },
+    {
+        "title": "Icebreaker (UCMH, #1)",
+        "Genre": "Romance",
+        "Large_Image_URL": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1659045816i/61767292.jpg",
+        "author first name": "Hannah ",
+        "author surname": "Grace",
+        "rank": 91
+    },
+    {
+        "title": "The Yard (Scotland Yard's Murder Squad, #1)",
+        "Genre": "Thriller",
+        "Large_Image_URL": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1327151978i/13056152.jpg",
+        "author first name": "Alex",
+        "author surname": "Grecian",
+        "rank": 92
+    },
+    {
+        "title": "Bad Luck Bridesmaid",
+        "Genre": "Romance",
+        "Large_Image_URL": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1634160703i/57693522.jpg",
+        "author first name": "Alison Rose",
+        "author surname": "Greenberg",
+        "rank": 93
+    },
+    {
+        "title": "Boyfriend Material (London Calling, #1)",
+        "Genre": "Romance",
+        "Large_Image_URL": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1575987260i/50225678.jpg",
+        "author first name": "Alexis ",
+        "author surname": "Hall",
+        "rank": 94
+    },
+    {
+        "title": "Husband Material (London Calling, #2)",
+        "Genre": "Romance",
+        "Large_Image_URL": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1633631494i/59236649.jpg",
+        "author first name": "Alexis ",
+        "author surname": "Hall",
+        "rank": 95
+    },
+    {
+        "title": "The Party",
+        "Genre": "Thriller",
+        "Large_Image_URL": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1496760152i/32620309.jpg",
+        "author first name": "Robyn",
+        "author surname": "Harding",
+        "rank": 96
+    },
+    {
+        "title": "After All I've Done",
+        "Genre": "Thriller",
+        "Large_Image_URL": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1582124525i/51477868.jpg",
+        "author first name": "Mina",
+        "author surname": "Hardy",
+        "rank": 97
+    },
+    {
+        "title": "The Guy to Be Seen With",
+        "Genre": "Romance",
+        "Large_Image_URL": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1354847468i/16001002.jpg",
+        "author first name": "Fiona",
+        "author surname": "Harper",
+        "rank": 98
+    },
+    {
+        "title": "Into the Water",
+        "Genre": "Thriller",
+        "Large_Image_URL": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1494055413i/33151805.jpg",
+        "author first name": "Paula",
+        "author surname": "Hawkins",
+        "rank": 99
+    },
+    {
+        "title": "Tell Me A Secret",
+        "Genre": "Thriller",
+        "Large_Image_URL": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1523638398i/39837786.jpg",
+        "author first name": "Samantha",
+        "author surname": "Hayes",
+        "rank": 100
+    },
+    {
+        "title": "Love on the Brain",
+        "Genre": "Romance",
+        "Large_Image_URL": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1657897729i/59571699.jpg",
+        "author first name": "Ali",
+        "author surname": "Hazelwood",
+        "rank": 101
+    },
+    {
+        "title": "The Love Hypothesis",
+        "Genre": "Romance",
+        "Large_Image_URL": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1747519081i/56732449.jpg",
+        "author first name": "Ali",
+        "author surname": "Hazelwood",
+        "rank": 102
+    },
+    {
+        "title": "An Anonymous Girl",
+        "Genre": "Thriller",
+        "Large_Image_URL": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1546956642i/39863515.jpg",
+        "author first name": "Greer",
+        "author surname": "Hendricks",
+        "rank": 103
+    },
+    {
+        "title": "Beach Read",
+        "Genre": "Romance",
+        "Large_Image_URL": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1589881197i/52867387.jpg",
+        "author first name": "Emily",
+        "author surname": "Henry",
+        "rank": 104
+    },
+    {
+        "title": "Book Lovers",
+        "Genre": "Romance",
+        "Large_Image_URL": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1638867089i/58690308.jpg",
+        "author first name": "Emily",
+        "author surname": "Henry",
+        "rank": 105
+    },
+    {
+        "title": "People We Meet on Vacation",
+        "Genre": "Romance",
+        "Large_Image_URL": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1748450140i/54985743.jpg",
+        "author first name": "Emily",
+        "author surname": "Henry",
+        "rank": 106
+    },
+    {
+        "title": "Act Your Age, Eve Brown (The Brown Sisters, #3)",
+        "Genre": "Romance",
+        "Large_Image_URL": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1598833651i/51824384.jpg",
+        "author first name": "Talia",
+        "author surname": "Hibbert",
+        "rank": 107
+    },
+    {
+        "title": "Take a Hint, Dani Brown (The Brown Sisters, #2)",
+        "Genre": "Romance",
+        "Large_Image_URL": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1572990974i/49976087.jpg",
+        "author first name": "Talia",
+        "author surname": "Hibbert",
+        "rank": 108
+    },
+    {
+        "title": "The Heart Principle (The Kiss Quotient, #3)",
+        "Genre": "Romance",
+        "Large_Image_URL": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1634059904i/50056075.jpg",
+        "author first name": "Helen ",
+        "author surname": "Hoang",
+        "rank": 109
+    },
+    {
+        "title": "The Kiss Quotient (The Kiss Quotient, #1)",
+        "Genre": "Romance",
+        "Large_Image_URL": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1688188444i/36199084.jpg",
+        "author first name": "Helen ",
+        "author surname": "Hoang",
+        "rank": 110
+    },
+    {
+        "title": "Dream On",
+        "Genre": "Romance",
+        "Large_Image_URL": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1654704156i/59366218.jpg",
+        "author first name": "Angie",
+        "author surname": "Hockman",
+        "rank": 111
+    },
+    {
+        "title": "Shipped",
+        "Genre": "Romance",
+        "Large_Image_URL": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1609080728i/54304013.jpg",
+        "author first name": "Angie",
+        "author surname": "Hockman",
+        "rank": 112
+    },
+    {
+        "title": "Twice Shy",
+        "Genre": "Romance",
+        "Large_Image_URL": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1595608490i/54660653.jpg",
+        "author first name": "Sarah",
+        "author surname": "Hogle",
+        "rank": 113
+    },
+    {
+        "title": "A Princess for Christmas (Christmas in Eldovia, #1)",
+        "Genre": "Romance",
+        "Large_Image_URL": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1585191175i/50496878.jpg",
+        "author first name": "Jenny ",
+        "author surname": "Holiday",
+        "rank": 114
+    },
+    {
+        "title": "Duke, Actually",
+        "Genre": "Romance",
+        "Large_Image_URL": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1629483578i/55506503.jpg",
+        "author first name": "Jenny ",
+        "author surname": "Holiday",
+        "rank": 115
+    },
+    {
+        "title": "Carry Me Through Christmas (Holly Ridge #1)",
+        "Genre": "Romance",
+        "Large_Image_URL": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1666355097i/61931329.jpg",
+        "author first name": "Rachel",
+        "author surname": "Holm",
+        "rank": 116
+    },
+    {
+        "title": "Verity",
+        "Genre": "Thriller",
+        "Large_Image_URL": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1537519686i/41957126.jpg",
+        "author first name": "Colleen",
+        "author surname": "Hoover",
+        "rank": 117
+    },
+    {
+        "title": "Last Time We Met",
+        "Genre": "Romance",
+        "Large_Image_URL": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1645943180i/59482692.jpg",
+        "author first name": "Emily",
+        "author surname": "Houghton",
+        "rank": 118
+    },
+    {
+        "title": "Brave New World",
+        "Genre": "Classic",
+        "Large_Image_URL": "https://www.papertrue.com/blog/wp-content/uploads/2023/11/5bravenewworld.jpg",
+        "author first name": "Aldous",
+        "author surname": "Huxley",
+        "rank": 119
+    },
+    {
+        "title": "A Kiss at Midnight (Fairy Tales, #1)",
+        "Genre": "Romance",
+        "Large_Image_URL": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1294044185i/6957682.jpg",
+        "author first name": "Eloisa",
+        "author surname": "James",
+        "rank": 120
+    },
+    {
+        "title": "The Sun Down Motel",
+        "Genre": "Thriller",
+        "Large_Image_URL": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1570443079i/45885644.jpg",
+        "author first name": "Simone St.",
+        "author surname": "James",
+        "rank": 121
+    },
+    {
+        "title": "Then She Was Gone",
+        "Genre": "Thriller",
+        "Large_Image_URL": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1741291185i/35297426.jpg",
+        "author first name": "Lisa",
+        "author surname": "Jewell",
+        "rank": 122
+    },
+    {
+        "title": "Part of Your World (Part of Your World, #1)",
+        "Genre": "Romance",
+        "Large_Image_URL": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1646246170i/57577284.jpg",
+        "author first name": "Abby",
+        "author surname": "Jimenez",
+        "rank": 123
+    },
+    {
+        "title": "The Happy Ever After Playlist (The Friend Zone, #2)",
+        "Genre": "Romance",
+        "Large_Image_URL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1565190701l/50208350._SX50_SY75_.jpg",
+        "author first name": "Abby",
+        "author surname": "Jimenez",
+        "rank": 124
+    },
+    {
+        "title": "Queen of the Dead (The Ghost and the Goth, #2)",
+        "Genre": "Romance",
+        "Large_Image_URL": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1292644655i/9504214.jpg",
+        "author first name": "Stacey",
+        "author surname": "Kade",
+        "rank": 125
+    },
+    {
+        "title": "The Ghost and the Goth (The Ghost and the Goth, #1)",
+        "Genre": "Romance",
+        "Large_Image_URL": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1327255237i/9517626.jpg",
+        "author first name": "Stacey",
+        "author surname": "Kade",
+        "rank": 126
+    },
+    {
+        "title": "Long Story Short",
+        "Genre": "Romance",
+        "Large_Image_URL": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1631031316i/57034751.jpg",
+        "author first name": "Serena",
+        "author surname": "Kaylor",
+        "rank": 127
+    },
+    {
+        "title": "A Home for Lily",
+        "Genre": "Romance",
+        "Large_Image_URL": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1428127309i/23384476.jpg",
+        "author first name": "Elizabeth  ",
+        "author surname": "Kelly",
+        "rank": 128
+    },
+    {
+        "title": "Carrie",
+        "Genre": "Thriller",
+        "Large_Image_URL": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1619886322i/57911383.jpg",
+        "author first name": "Stephen ",
+        "author surname": "King",
+        "rank": 129
+    },
+    {
+        "title": "Can You Keep a Secret?",
+        "Genre": "Romance",
+        "Large_Image_URL": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1330464293i/33724.jpg",
+        "author first name": "Sophie",
+        "author surname": "Kinsella",
+        "rank": 130
+    },
+    {
+        "title": "Girls Like Girls",
+        "Genre": "Romance",
+        "Large_Image_URL": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1678220209i/61885082.jpg",
+        "author first name": "Hayley",
+        "author surname": "Kiyoko",
+        "rank": 131
+    },
+    {
+        "title": "And Then I Kissed Him",
+        "Genre": "Romance",
+        "Large_Image_URL": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1664821051i/62871401.jpg",
+        "author first name": "Ella ",
+        "author surname": "Knight",
+        "rank": 132
+    },
+    {
+        "title": "The Favorite Sister",
+        "Genre": "Thriller",
+        "Large_Image_URL": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1512574418i/36967019.jpg",
+        "author first name": "Jessica",
+        "author surname": "Knoll",
+        "rank": 133
+    },
+    {
+        "title": "The Raise",
+        "Genre": "Thriller",
+        "Large_Image_URL": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1754513738i/239515968.jpg",
+        "author first name": "Ali",
+        "author surname": "Kriegsman",
+        "rank": 134
+    },
+    {
+        "title": "The Unbearable Lightness of Being",
+        "Genre": "Classic",
+        "Large_Image_URL": "https://www.papertrue.com/blog/wp-content/uploads/2023/11/21unbearablelightness.jpg",
+        "author first name": "Milan",
+        "author surname": "Kundera",
+        "rank": 135
+    },
+    {
+        "title": "In a Holidaze",
+        "Genre": "Romance",
+        "Large_Image_URL": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1601590329i/50892287.jpg",
+        "author first name": "Christina",
+        "author surname": "Lauren",
+        "rank": 136
+    },
+    {
+        "title": "The Unhoneymooners (Unhoneymooners, #1)",
+        "Genre": "Romance",
+        "Large_Image_URL": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1548201335i/42201431.jpg",
+        "author first name": "Christina",
+        "author surname": "Lauren",
+        "rank": 137
+    },
+    {
+        "title": "To Sir, with Love",
+        "Genre": "Romance",
+        "Large_Image_URL": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1622654664i/55711665.jpg",
+        "author first name": "Lauren",
+        "author surname": "Layne",
+        "rank": 138
+    },
+    {
+        "title": "Dangerous Games (DCYE, #4)",
+        "Genre": "Thriller",
+        "Large_Image_URL": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1674069665i/80090604.jpg",
+        "author first name": "Lynessa",
+        "author surname": "Layne",
+        "rank": 139
+    },
+    {
+        "title": "Don't Close Your Eyes (DCYE, #1)",
+        "Genre": "Thriller",
+        "Large_Image_URL": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1666029434i/63025954.jpg",
+        "author first name": "Lynessa",
+        "author surname": "Layne",
+        "rank": 140
+    },
+    {
+        "title": "Point Blank: Volume 7 of Don't Close Your Eyes",
+        "Genre": "Thriller",
+        "Large_Image_URL": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1701148399i/202777579.jpg",
+        "author first name": "Lynessa",
+        "author surname": "Layne",
+        "rank": 141
+    },
+    {
+        "title": "Target Acquired (DCYE, #6)",
+        "Genre": "Thriller",
+        "Large_Image_URL": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1663879204i/62690524.jpg",
+        "author first name": "Lynessa",
+        "author surname": "Layne",
+        "rank": 142
+    },
+    {
+        "title": "A Pho Love Story",
+        "Genre": "Romance",
+        "Large_Image_URL": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1610894924i/54238295.jpg",
+        "author first name": "Loan",
+        "author surname": "Le",
+        "rank": 143
+    },
+    {
+        "title": "Begin Again",
+        "Genre": "Romance",
+        "Large_Image_URL": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1652450839i/60784619.jpg",
+        "author first name": "Emma",
+        "author surname": "Lord",
+        "rank": 144
+    },
+    {
+        "title": "The Rival",
+        "Genre": "Romance",
+        "Large_Image_URL": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1714145715i/211003860.jpg",
+        "author first name": "Emma",
+        "author surname": "Lord",
+        "rank": 145
+    },
+    {
+        "title": "Tweet Cute",
+        "Genre": "Romance",
+        "Large_Image_URL": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1558456354i/45045129.jpg",
+        "author first name": "Emma",
+        "author surname": "Lord",
+        "rank": 146
+    },
+    {
+        "title": "When You Get the Chance",
+        "Genre": "Romance",
+        "Large_Image_URL": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1619733498i/54306966.jpg",
+        "author first name": "Emma",
+        "author surname": "Lord",
+        "rank": 147
+    },
+    {
+        "title": "The Best Lies",
+        "Genre": "Thriller",
+        "Large_Image_URL": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1560073685i/40525361.jpg",
+        "author first name": "Sarah",
+        "author surname": "Lyu",
+        "rank": 148
+    },
+    {
+        "title": "To Hate Adam Connor",
+        "Genre": "Romance",
+        "Large_Image_URL": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1628876168i/58762145.jpg",
+        "author first name": "Ella",
+        "author surname": "Maise",
+        "rank": 149
+    },
+    {
+        "title": "To Love Jason Thorn",
+        "Genre": "Romance",
+        "Large_Image_URL": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1628875951i/58762117.jpg",
+        "author first name": "Ella",
+        "author surname": "Maise",
+        "rank": 150
+    },
+    {
+        "title": "The Romanov Cross",
+        "Genre": "Thriller",
+        "Large_Image_URL": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1344371975i/15797005.jpg",
+        "author first name": "Robert",
+        "author surname": "Masello",
+        "rank": 151
+    },
+    {
+        "title": "Just Last Night",
+        "Genre": "Romance",
+        "Large_Image_URL": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1606106948i/54870201.jpg",
+        "author first name": "Mhairi",
+        "author surname": "McFarlane",
+        "rank": 152
+    },
+    {
+        "title": "Mad About You",
+        "Genre": "Romance",
+        "Large_Image_URL": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1635274814i/58758622.jpg",
+        "author first name": "Mhairi",
+        "author surname": "McFarlane",
+        "rank": 153
+    },
+    {
+        "title": "One Last Stop",
+        "Genre": "Romance",
+        "Large_Image_URL": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1598019346i/54860443.jpg",
+        "author first name": "Casey",
+        "author surname": "McQuiston",
+        "rank": 154
+    },
+    {
+        "title": "Red, White & Royal Blue",
+        "Genre": "Romance",
+        "Large_Image_URL": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1566742512i/41150487.jpg",
+        "author first name": "Casey",
+        "author surname": "McQuiston",
+        "rank": 155
+    },
+    {
+        "title": "People Like Us",
+        "Genre": "Thriller",
+        "Large_Image_URL": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1503002906i/35356380.jpg",
+        "author first name": "Dana ",
+        "author surname": "Mele",
+        "rank": 156
+    },
+    {
+        "title": "Instant Karma (Instant Karma, #1)",
+        "Genre": "Romance",
+        "Large_Image_URL": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1588002981i/53174679.jpg",
+        "author first name": "Marissa",
+        "author surname": "Meyer",
+        "rank": 157
+    },
+    {
+        "title": "The Silent Patient",
+        "Genre": "Thriller",
+        "Large_Image_URL": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1668782119i/40097951.jpg",
+        "author first name": "Alex",
+        "author surname": "Michaelides",
+        "rank": 158
+    },
+    {
+        "title": "All the Missing Girls",
+        "Genre": "Thriller",
+        "Large_Image_URL": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1452098621i/23212667.jpg",
+        "author first name": "Megan",
+        "author surname": "Miranda",
+        "rank": 159
+    },
+    {
+        "title": "Come Find Me",
+        "Genre": "Thriller",
+        "Large_Image_URL": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1534875871i/35065766.jpg",
+        "author first name": "Megan",
+        "author surname": "Miranda",
+        "rank": 160
+    },
+    {
+        "title": "Big Little Lies",
+        "Genre": "Thriller",
+        "Large_Image_URL": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1594851437i/19486412.jpg",
+        "author first name": "Liane",
+        "author surname": "Moriarty",
+        "rank": 161
+    },
+    {
+        "title": "Despair",
+        "Genre": "Classic",
+        "Large_Image_URL": "https://www.papertrue.com/blog/wp-content/uploads/2023/11/43Despair-by-Vladimir-Nabokov.jpg",
+        "author first name": "Vladimir",
+        "author surname": "Nabokov",
+        "rank": 162
+    },
+    {
+        "title": "Hurry Home",
+        "Genre": "Thriller",
+        "Large_Image_URL": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1581637379i/48619860.jpg",
+        "author first name": "Roz",
+        "author surname": "Nay",
+        "rank": 163
+    },
+    {
+        "title": "Seven Percent of Ro Devereux",
+        "Genre": "Romance",
+        "Large_Image_URL": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1655661005i/60877625.jpg",
+        "author first name": "Ellen",
+        "author surname": "O'Clover",
+        "rank": 164
+    },
+    {
+        "title": "The Flatshare",
+        "Genre": "Romance",
+        "Large_Image_URL": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1552471375i/36478784.jpg",
+        "author first name": "Beth",
+        "author surname": "O'Leary",
+        "rank": 165
+    },
+    {
+        "title": "The Switch",
+        "Genre": "Romance",
+        "Large_Image_URL": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1573576865i/45134200.jpg",
+        "author first name": "Beth",
+        "author surname": "O'Leary",
+        "rank": 166
+    },
+    {
+        "title": "Broken Things",
+        "Genre": "Thriller",
+        "Large_Image_URL": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1526969458i/37859646.jpg",
+        "author first name": "Lauren",
+        "author surname": "Oliver",
+        "rank": 167
+    },
+    {
+        "title": "Mr. Wrong Number (Mr. Wrong Number, #1)",
+        "Genre": "Romance",
+        "Large_Image_URL": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1642686516i/58419108.jpg",
+        "author first name": "Lynn",
+        "author surname": "Painter",
+        "rank": 168
+    },
+    {
+        "title": "Archie: A Rock 'n' Roll Romance",
+        "Genre": "Romance",
+        "Large_Image_URL": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1403195716i/13643043.jpg",
+        "author first name": "Dan",
+        "author surname": "Parent",
+        "rank": 169
+    },
+    {
+        "title": "The Guest Book",
+        "Genre": "Thriller",
+        "Large_Image_URL": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1608064588i/51477038.jpg",
+        "author first name": "C.L.",
+        "author surname": "Pattison",
+        "rank": 170
+    },
+    {
+        "title": "13 Minutes",
+        "Genre": "Thriller",
+        "Large_Image_URL": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1443998466i/26866364.jpg",
+        "author first name": "Sarah",
+        "author surname": "Pinborough",
+        "rank": 171
+    },
+    {
+        "title": "Behind Her Eyes",
+        "Genre": "Thriller",
+        "Large_Image_URL": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1485279813i/28965131.jpg",
+        "author first name": "Sarah",
+        "author surname": "Pinborough",
+        "rank": 172
+    },
+    {
+        "title": "This Lie Will Kill You",
+        "Genre": "Thriller",
+        "Large_Image_URL": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1538302455i/40680043.jpg",
+        "author first name": "Chelsea",
+        "author surname": "Pitcher",
+        "rank": 173
+    },
+    {
+        "title": "The Godfather",
+        "Genre": "Classic",
+        "Large_Image_URL": "https://www.papertrue.com/blog/wp-content/uploads/2023/11/22The-Godfather-Book-Cover-399x600-1.jpg",
+        "author first name": "Mario",
+        "author surname": "Puzo",
+        "rank": 174
+    },
+    {
+        "title": "Perfect Liars",
+        "Genre": "Thriller",
+        "Large_Image_URL": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1532724593i/39682040.jpg",
+        "author first name": "Rebecca",
+        "author surname": "Reid",
+        "rank": 175
+    },
+    {
+        "title": "Breakaway (Beyond the Play, #2)",
+        "Genre": "Romance",
+        "Large_Image_URL": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1674227956i/81341438.jpg",
+        "author first name": "Grace",
+        "author surname": "Reilly",
+        "rank": 176
+    },
+    {
+        "title": "First Down (Beyond the Play, #1)",
+        "Genre": "Romance",
+        "Large_Image_URL": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1674227814i/81339977.jpg",
+        "author first name": "Grace",
+        "author surname": "Reilly",
+        "rank": 177
+    },
+    {
+        "title": "If We Were Villains",
+        "Genre": "Thriller",
+        "Large_Image_URL": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1480717682i/30319086.jpg",
+        "author first name": "M.L.",
+        "author surname": "Rio",
+        "rank": 178
+    },
+    {
+        "title": "The Baby Who Saved Christmas",
+        "Genre": "Romance",
+        "Large_Image_URL": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1436129152i/25330498.jpg",
+        "author first name": "Alison",
+        "author surname": "Roberts",
+        "rank": 179
+    },
+    {
+        "title": "The Dating Playbook (The Boyfriend Project, #2)",
+        "Genre": "Romance",
+        "Large_Image_URL": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1607427006i/55919760.jpg",
+        "author first name": "Farrah",
+        "author surname": "Rochon",
+        "rank": 180
+    },
+    {
+        "title": "Seven Deadly Sins",
+        "Genre": "Thriller",
+        "Large_Image_URL": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1723904385i/217562360.jpg",
+        "author first name": "Vitor M.C.",
+        "author surname": "Rodrigues",
+        "rank": 181
+    },
+    {
+        "title": "The Deep Lake",
+        "Genre": "Thriller",
+        "Large_Image_URL": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1717182378i/214080153.jpg",
+        "author first name": "Vitor M.C.",
+        "author surname": "Rodrigues",
+        "rank": 182
+    },
+    {
+        "title": "Tweet Heart",
+        "Genre": "Romance",
+        "Large_Image_URL": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1331437753i/7364439.jpg",
+        "author first name": "Elizabeth",
+        "author surname": "Rudnick",
+        "rank": 183
+    },
+    {
+        "title": "The Last Time I Lied",
+        "Genre": "Thriller",
+        "Large_Image_URL": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1511141004i/36626748.jpg",
+        "author first name": "Riley",
+        "author surname": "Sager",
+        "rank": 184
+    },
+    {
+        "title": "The Catcher in the Rye",
+        "Genre": "Classic",
+        "Large_Image_URL": "https://www.papertrue.com/blog/wp-content/uploads/2023/11/10The-Catcher-in-the-Rye-First-Edition-cover-E.-Michael-Mitchell.jpg",
+        "author first name": "J.D.",
+        "author surname": "Salinger",
+        "rank": 185
+    },
+    {
+        "title": "The Last Chance Library",
+        "Genre": "Romance",
+        "Large_Image_URL": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1616423054i/56377192.jpg",
+        "author first name": "Freya",
+        "author surname": "Sampson",
+        "rank": 186
+    },
+    {
+        "title": "The Twelve Dogs of Christmas (Pine Hollow, #1)",
+        "Genre": "Romance",
+        "Large_Image_URL": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1582784288i/50358511.jpg",
+        "author first name": "Lizzie",
+        "author surname": "Shane",
+        "rank": 187
+    },
+    {
+        "title": "Frankenstein",
+        "Genre": "Classic",
+        "Large_Image_URL": "https://www.papertrue.com/blog/wp-content/uploads/2023/11/13frankenstein.jpg",
+        "author first name": "Mary",
+        "author surname": "Shelley",
+        "rank": 188
+    },
+    {
+        "title": "Dark Around the Edges",
+        "Genre": "Thriller",
+        "Large_Image_URL": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1348713954i/1611663.jpg",
+        "author first name": "Susan",
+        "author surname": "Simpson",
+        "rank": 189
+    },
+    {
+        "title": "Rat-a-tat-tat",
+        "Genre": "Thriller",
+        "Large_Image_URL": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1348627432i/2857566.jpg",
+        "author first name": "Susan",
+        "author surname": "Simpson",
+        "rank": 190
+    },
+    {
+        "title": "The Wealth of Nations",
+        "Genre": "Classic",
+        "Large_Image_URL": "https://www.papertrue.com/blog/wp-content/uploads/2023/11/24the-wealth-of-nations-fingerprint_FrontImage_208.jpg",
+        "author first name": "Adam",
+        "author surname": "Smith",
+        "rank": 191
+    },
+    {
+        "title": "The Last Secret of The Soul: One boy. One Holocaust. One Survivor.",
+        "Genre": "Thriller",
+        "Large_Image_URL": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1736454683i/223436532.jpg",
+        "author first name": "Stephen P.  ",
+        "author surname": "Smith",
+        "rank": 192
+    },
+    {
+        "title": "See You Yesterday",
+        "Genre": "Romance",
+        "Large_Image_URL": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1650470632i/59365594.jpg",
+        "author first name": "Rachel Lynn",
+        "author surname": "Solomon",
+        "rank": 193
+    },
+    {
+        "title": "The Ex Talk",
+        "Genre": "Romance",
+        "Large_Image_URL": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1590351351i/53382168.jpg",
+        "author first name": "Rachel Lynn",
+        "author surname": "Solomon",
+        "rank": 194
+    },
+    {
+        "title": "Today Tonight Tomorrow (Rowan & Neil, #1)",
+        "Genre": "Romance",
+        "Large_Image_URL": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1582468069i/52766407.jpg",
+        "author first name": "Rachel Lynn",
+        "author surname": "Solomon",
+        "rank": 195
+    },
+    {
+        "title": "The Worst Best Man",
+        "Genre": "Romance",
+        "Large_Image_URL": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1576628668i/43801254.jpg",
+        "author first name": "Mia",
+        "author surname": "Sosa",
+        "rank": 196
+    },
+    {
+        "title": "The Call of Cassandra Rose",
+        "Genre": "Thriller",
+        "Large_Image_URL": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1653343096i/60851324.jpg",
+        "author first name": "Sophia",
+        "author surname": "Spiers",
+        "rank": 197
+    },
+    {
+        "title": "Something In the Water",
+        "Genre": "Thriller",
+        "Large_Image_URL": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1522987289i/39729353.jpg",
+        "author first name": "Catherine",
+        "author surname": "Steadman",
+        "rank": 198
+    },
+    {
+        "title": "The Grapes of Wrath",
+        "Genre": "Classic",
+        "Large_Image_URL": "https://www.papertrue.com/blog/wp-content/uploads/2023/11/3px-The_Grapes_of_Wrath_1939_1st_ed_cover.jpg",
+        "author first name": "John",
+        "author surname": "Steinbeck",
+        "rank": 199
+    },
+    {
+        "title": "Spring Tide (Coastal University, #1)",
+        "Genre": "Romance",
+        "Large_Image_URL": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1745331575i/63027350.jpg",
+        "author first name": "Ki",
+        "author surname": "Stephens",
+        "rank": 200
+    },
+    {
+        "title": "A Guide to Being Just Friends (Jansen Brothers, #3)",
+        "Genre": "Romance",
+        "Large_Image_URL": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1652465029i/60784626.jpg",
+        "author first name": "Sophie",
+        "author surname": "Sullivan",
+        "rank": 201
+    },
+    {
+        "title": "How to Love Your Neighbor (Jansen Brothers, #2)",
+        "Genre": "Romance",
+        "Large_Image_URL": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1625601112i/57693505.jpg",
+        "author first name": "Sophie",
+        "author surname": "Sullivan",
+        "rank": 202
+    },
+    {
+        "title": "Love, Naturally (Rock Bottom Love, #1)",
+        "Genre": "Romance",
+        "Large_Image_URL": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1687769206i/127281652.jpg",
+        "author first name": "Sophie",
+        "author surname": "Sullivan",
+        "rank": 203
+    },
+    {
+        "title": "Maybe This Once (Rock Bottom Love, #3)",
+        "Genre": "Romance",
+        "Large_Image_URL": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1748383230i/231126991.jpg",
+        "author first name": "Sophie",
+        "author surname": "Sullivan",
+        "rank": 204
+    },
+    {
+        "title": "Funny You Should Ask",
+        "Genre": "Romance",
+        "Large_Image_URL": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1671712456i/58065414.jpg",
+        "author first name": "Elissa",
+        "author surname": "Sussman",
+        "rank": 205
+    },
+    {
+        "title": "The Cheerleaders",
+        "Genre": "Thriller",
+        "Large_Image_URL": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1508532886i/30969755.jpg",
+        "author first name": "Kara",
+        "author surname": "Thomas",
+        "rank": 206
+    },
+    {
+        "title": "Love in the Time of Serial Killers",
+        "Genre": "Romance",
+        "Large_Image_URL": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1640224232i/59722215.jpg",
+        "author first name": "Alicia",
+        "author surname": "Thompson",
+        "rank": 207
+    },
+    {
+        "title": "Second First Impressions",
+        "Genre": "Romance",
+        "Large_Image_URL": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1617153142i/45553600.jpg",
+        "author first name": "Sally ",
+        "author surname": "Thorne",
+        "rank": 208
+    },
+    {
+        "title": "The Hating Game",
+        "Genre": "Romance",
+        "Large_Image_URL": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1467138679i/25883848.jpg",
+        "author first name": "Sally ",
+        "author surname": "Thorne",
+        "rank": 209
+    },
+    {
+        "title": "Hot House",
+        "Genre": "Thriller",
+        "Large_Image_URL": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1640289053i/59917875.jpg",
+        "author first name": "Lisa",
+        "author surname": "Towles",
+        "rank": 210
+    },
+    {
+        "title": "The 7 1/2 Deaths of Evelyn Hardcastle",
+        "Genre": "Thriller",
+        "Large_Image_URL": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1506896221i/36337550.jpg",
+        "author first name": "Stuart",
+        "author surname": "Turton",
+        "rank": 211
+    },
+    {
+        "title": "In a Dark, Dark Wood",
+        "Genre": "Thriller",
+        "Large_Image_URL": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1438581608i/23783496.jpg",
+        "author first name": "Ruth",
+        "author surname": "Ware",
+        "rank": 212
+    },
+    {
+        "title": "The Death of Mrs. Westaway",
+        "Genre": "Thriller",
+        "Large_Image_URL": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1518710953i/36373481.jpg",
+        "author first name": "Ruth",
+        "author surname": "Ware",
+        "rank": 213
+    },
+    {
+        "title": "The Turn of the Key",
+        "Genre": "Thriller",
+        "Large_Image_URL": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1548204800i/42080142.jpg",
+        "author first name": "Ruth",
+        "author surname": "Ware",
+        "rank": 214
+    },
+    {
+        "title": "The Woman in Cabin 10 (Lo Blacklock, #1)",
+        "Genre": "Thriller",
+        "Large_Image_URL": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1467582800i/30002384.jpg",
+        "author first name": "Ruth",
+        "author surname": "Ware",
+        "rank": 215
+    },
+    {
+        "title": "Daughters of the Lake",
+        "Genre": "Thriller",
+        "Large_Image_URL": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1532994404i/36530830.jpg",
+        "author first name": "Wendy    ",
+        "author surname": "Webb",
+        "rank": 216
+    },
+    {
+        "title": "Bad Girls with Perfect Faces",
+        "Genre": "Thriller",
+        "Large_Image_URL": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1489170053i/34144430.jpg",
+        "author first name": "Lynn",
+        "author surname": "Weingarten",
+        "rank": 217
+    },
+    {
+        "title": "Bound (The Witches of Doyle #1)",
+        "Genre": "Thriller",
+        "Large_Image_URL": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1479706352i/33022121.jpg",
+        "author first name": "Kirsten",
+        "author surname": "Weiss",
+        "rank": 218
+    },
+    {
+        "title": "The Invisible Man",
+        "Genre": "Classic",
+        "Large_Image_URL": "https://www.papertrue.com/blog/wp-content/uploads/2023/11/18The-Invisible-Man-Book-Cover-385x600-1.jpg",
+        "author first name": "H.G.",
+        "author surname": "Wells",
+        "rank": 219
+    },
+    {
+        "title": "The Roughest Draft",
+        "Genre": "Romance",
+        "Large_Image_URL": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1622091718i/57933316.jpg",
+        "author first name": "Emily",
+        "author surname": "Wibberley",
+        "rank": 220
+    }
+]

@@ -1,0 +1,882 @@
+{
+    "The Love Hypothesis": {
+        "Local_Path": "game_images/The_Love_Hypothesis.jpg",
+        "Genre": "Romance"
+    },
+    "People We Meet on Vacation": {
+        "Local_Path": "game_images/People_We_Meet_on_Vacation.jpg",
+        "Genre": "Romance"
+    },
+    "Love on the Brain": {
+        "Local_Path": "game_images/Love_on_the_Brain.jpg",
+        "Genre": "Romance"
+    },
+    "The Spanish Love Deception (Love Deception, #1)": {
+        "Local_Path": "game_images/The_Spanish_Love_Deception_Love_Deception_1.jpg",
+        "Genre": "Romance"
+    },
+    "The Kiss Quotient (The Kiss Quotient, #1)": {
+        "Local_Path": "game_images/The_Kiss_Quotient_The_Kiss_Quotient_1.jpg",
+        "Genre": "Romance"
+    },
+    "It Happened One Summer (Bellinger Sisters, #1)": {
+        "Local_Path": "game_images/It_Happened_One_Summer_Bellinger_Sisters_1.jpg",
+        "Genre": "Romance"
+    },
+    "The Hating Game": {
+        "Local_Path": "game_images/The_Hating_Game.jpg",
+        "Genre": "Romance"
+    },
+    "Beach Read": {
+        "Local_Path": "game_images/Beach_Read.jpg",
+        "Genre": "Romance"
+    },
+    "Fix Her Up (Hot & Hammered, #1)": {
+        "Local_Path": "game_images/Fix_Her_Up_Hot__Hammered_1.jpg",
+        "Genre": "Romance"
+    },
+    "Red, White & Royal Blue": {
+        "Local_Path": "game_images/Red_White__Royal_Blue.jpg",
+        "Genre": "Romance"
+    },
+    "Second First Impressions": {
+        "Local_Path": "game_images/Second_First_Impressions.jpg",
+        "Genre": "Romance"
+    },
+    "Hook, Line, and Sinker (Bellinger Sisters, #2)": {
+        "Local_Path": "game_images/Hook_Line_and_Sinker_Bellinger_Sisters_2.jpg",
+        "Genre": "Romance"
+    },
+    "The American Roommate Experiment (Spanish Love Deception, #2)": {
+        "Local_Path": "game_images/The_American_Roommate_Experiment_Spanish_Love_Deception_2.jpg",
+        "Genre": "Romance"
+    },
+    "The Flatshare": {
+        "Local_Path": "game_images/The_Flatshare.jpg",
+        "Genre": "Romance"
+    },
+    "Window Shopping": {
+        "Local_Path": "game_images/Window_Shopping.jpg",
+        "Genre": "Romance"
+    },
+    "Boyfriend Material (London Calling, #1)": {
+        "Local_Path": "game_images/Boyfriend_Material_London_Calling_1.jpg",
+        "Genre": "Romance"
+    },
+    "Today Tonight Tomorrow (Rowan & Neil, #1)": {
+        "Local_Path": "game_images/Today_Tonight_Tomorrow_Rowan__Neil_1.jpg",
+        "Genre": "Romance"
+    },
+    "To Hate Adam Connor": {
+        "Local_Path": "game_images/To_Hate_Adam_Connor.jpg",
+        "Genre": "Romance"
+    },
+    "Act Your Age, Eve Brown (The Brown Sisters, #3)": {
+        "Local_Path": "game_images/Act_Your_Age_Eve_Brown_The_Brown_Sisters_3.jpg",
+        "Genre": "Romance"
+    },
+    "Book Lovers": {
+        "Local_Path": "game_images/Book_Lovers.jpg",
+        "Genre": "Romance"
+    },
+    "The Ex Talk": {
+        "Local_Path": "game_images/The_Ex_Talk.jpg",
+        "Genre": "Romance"
+    },
+    "The Heart Principle (The Kiss Quotient, #3)": {
+        "Local_Path": "game_images/The_Heart_Principle_The_Kiss_Quotient_3.jpg",
+        "Genre": "Romance"
+    },
+    "The Unhoneymooners (Unhoneymooners, #1)": {
+        "Local_Path": "game_images/The_Unhoneymooners_Unhoneymooners_1.jpg",
+        "Genre": "Romance"
+    },
+    "Dream On": {
+        "Local_Path": "game_images/Dream_On.jpg",
+        "Genre": "Romance"
+    },
+    "The Worst Best Man": {
+        "Local_Path": "game_images/The_Worst_Best_Man.jpg",
+        "Genre": "Romance"
+    },
+    "One Last Stop": {
+        "Local_Path": "game_images/One_Last_Stop.jpg",
+        "Genre": "Romance"
+    },
+    "Well Met (Well Met, #1)": {
+        "Local_Path": "game_images/Well_Met_Well_Met_1.jpg",
+        "Genre": "Romance"
+    },
+    "To Love Jason Thorn": {
+        "Local_Path": "game_images/To_Love_Jason_Thorn.jpg",
+        "Genre": "Romance"
+    },
+    "The Roommate (Shameless #1)": {
+        "Local_Path": "game_images/The_Roommate_Shameless_1.jpg",
+        "Genre": "Romance"
+    },
+    "Annie's Song": {
+        "Local_Path": "game_images/Annies_Song.jpg",
+        "Genre": "Romance"
+    },
+    "Take a Hint, Dani Brown (The Brown Sisters, #2)": {
+        "Local_Path": "game_images/Take_a_Hint_Dani_Brown_The_Brown_Sisters_2.jpg",
+        "Genre": "Romance"
+    },
+    "Can You Keep a Secret?": {
+        "Local_Path": "game_images/Can_You_Keep_a_Secret.jpg",
+        "Genre": "Romance"
+    },
+    "Twice Shy": {
+        "Local_Path": "game_images/Twice_Shy.jpg",
+        "Genre": "Romance"
+    },
+    "Tweet Cute": {
+        "Local_Path": "game_images/Tweet_Cute.jpg",
+        "Genre": "Romance"
+    },
+    "The Cheat Sheet (The Cheat Sheet, #1)": {
+        "Local_Path": "game_images/The_Cheat_Sheet_The_Cheat_Sheet_1.jpg",
+        "Genre": "Romance"
+    },
+    "For Twice in My Life": {
+        "Local_Path": "game_images/For_Twice_in_My_Life.jpg",
+        "Genre": "Romance"
+    },
+    "Shipped": {
+        "Local_Path": "game_images/Shipped.jpg",
+        "Genre": "Romance"
+    },
+    "The Switch": {
+        "Local_Path": "game_images/The_Switch.jpg",
+        "Genre": "Romance"
+    },
+    "Part of Your World (Part of Your World, #1)": {
+        "Local_Path": "game_images/Part_of_Your_World_Part_of_Your_World_1.jpg",
+        "Genre": "Romance"
+    },
+    "Portrait of a Scotsman (A League of Extraordinary Women, #3)": {
+        "Local_Path": "game_images/Portrait_of_a_Scotsman_A_League_of_Extraordinary_Women_3.jpg",
+        "Genre": "Romance"
+    },
+    "See You Yesterday": {
+        "Local_Path": "game_images/See_You_Yesterday.jpg",
+        "Genre": "Romance"
+    },
+    "In a Holidaze": {
+        "Local_Path": "game_images/In_a_Holidaze.jpg",
+        "Genre": "Romance"
+    },
+    "Just Last Night": {
+        "Local_Path": "game_images/Just_Last_Night.jpg",
+        "Genre": "Romance"
+    },
+    "A Pho Love Story": {
+        "Local_Path": "game_images/A_Pho_Love_Story.jpg",
+        "Genre": "Romance"
+    },
+    "Hedging Your Bets": {
+        "Local_Path": "game_images/Hedging_Your_Bets.jpg",
+        "Genre": "Romance"
+    },
+    "Icebreaker (UCMH, #1)": {
+        "Local_Path": "game_images/Icebreaker_UCMH_1.jpg",
+        "Genre": "Romance"
+    },
+    "The Happy Ever After Playlist (The Friend Zone, #2)": {
+        "Local_Path": "game_images/The_Happy_Ever_After_Playlist_The_Friend_Zone_2.jpg",
+        "Genre": "Romance"
+    },
+    "Husband Material (London Calling, #2)": {
+        "Local_Path": "game_images/Husband_Material_London_Calling_2.jpg",
+        "Genre": "Romance"
+    },
+    "Rules of Attraction (Perfect Chemistry, #2)": {
+        "Local_Path": "game_images/Rules_of_Attraction_Perfect_Chemistry_2.jpg",
+        "Genre": "Romance"
+    },
+    "To Sir, with Love": {
+        "Local_Path": "game_images/To_Sir_with_Love.jpg",
+        "Genre": "Romance"
+    },
+    "Love Lettering": {
+        "Local_Path": "game_images/Love_Lettering.jpg",
+        "Genre": "Romance"
+    },
+    "A Kiss at Midnight (Fairy Tales, #1)": {
+        "Local_Path": "game_images/A_Kiss_at_Midnight_Fairy_Tales_1.jpg",
+        "Genre": "Romance"
+    },
+    "When You Get the Chance": {
+        "Local_Path": "game_images/When_You_Get_the_Chance.jpg",
+        "Genre": "Romance"
+    },
+    "The Dating Playbook (The Boyfriend Project, #2)": {
+        "Local_Path": "game_images/The_Dating_Playbook_The_Boyfriend_Project_2.jpg",
+        "Genre": "Romance"
+    },
+    "The Last Chance Library": {
+        "Local_Path": "game_images/The_Last_Chance_Library.jpg",
+        "Genre": "Romance"
+    },
+    "The Roughest Draft": {
+        "Local_Path": "game_images/The_Roughest_Draft.jpg",
+        "Genre": "Romance"
+    },
+    "A Show for Two": {
+        "Local_Path": "game_images/A_Show_for_Two.jpg",
+        "Genre": "Romance"
+    },
+    "Funny You Should Ask": {
+        "Local_Path": "game_images/Funny_You_Should_Ask.jpg",
+        "Genre": "Romance"
+    },
+    "Mr. Wrong Number (Mr. Wrong Number, #1)": {
+        "Local_Path": "game_images/Mr_Wrong_Number_Mr_Wrong_Number_1.jpg",
+        "Genre": "Romance"
+    },
+    "I Kissed a Girl": {
+        "Local_Path": "game_images/I_Kissed_a_Girl.jpg",
+        "Genre": "Romance"
+    },
+    "The Summer Duchess (A Duchess for All Seasons Book 3)": {
+        "Local_Path": "game_images/The_Summer_Duchess_A_Duchess_for_All_Seasons_Book_3.jpg",
+        "Genre": "Romance"
+    },
+    "A Guide to Being Just Friends (Jansen Brothers, #3)": {
+        "Local_Path": "game_images/A_Guide_to_Being_Just_Friends_Jansen_Brothers_3.jpg",
+        "Genre": "Romance"
+    },
+    "A Princess for Christmas (Christmas in Eldovia, #1)": {
+        "Local_Path": "game_images/A_Princess_for_Christmas_Christmas_in_Eldovia_1.jpg",
+        "Genre": "Romance"
+    },
+    "Seven Percent of Ro Devereux": {
+        "Local_Path": "game_images/Seven_Percent_of_Ro_Devereux.jpg",
+        "Genre": "Romance"
+    },
+    "Talk Bookish to Me": {
+        "Local_Path": "game_images/Talk_Bookish_to_Me.jpg",
+        "Genre": "Romance"
+    },
+    "Love in the Time of Serial Killers": {
+        "Local_Path": "game_images/Love_in_the_Time_of_Serial_Killers.jpg",
+        "Genre": "Romance"
+    },
+    "Not in Search of Love": {
+        "Local_Path": "game_images/Not_in_Search_of_Love.jpg",
+        "Genre": "Romance"
+    },
+    "And Then I Kissed Him": {
+        "Local_Path": "game_images/And_Then_I_Kissed_Him.jpg",
+        "Genre": "Romance"
+    },
+    "The Rom-Com Agenda": {
+        "Local_Path": "game_images/The_Rom-Com_Agenda.jpg",
+        "Genre": "Romance"
+    },
+    "Breakaway (Beyond the Play, #2)": {
+        "Local_Path": "game_images/Breakaway_Beyond_the_Play_2.jpg",
+        "Genre": "Romance"
+    },
+    "Come As You Are": {
+        "Local_Path": "game_images/Come_As_You_Are.jpg",
+        "Genre": "Romance"
+    },
+    "Archie: A Rock 'n' Roll Romance": {
+        "Local_Path": "game_images/Archie_A_Rock_n_Roll_Romance.jpg",
+        "Genre": "Romance"
+    },
+    "The Ghost and the Goth (The Ghost and the Goth, #1)": {
+        "Local_Path": "game_images/The_Ghost_and_the_Goth_The_Ghost_and_the_Goth_1.jpg",
+        "Genre": "Romance"
+    },
+    "Girls Like Girls": {
+        "Local_Path": "game_images/Girls_Like_Girls.jpg",
+        "Genre": "Romance"
+    },
+    "Spring Tide (Coastal University, #1)": {
+        "Local_Path": "game_images/Spring_Tide_Coastal_University_1.jpg",
+        "Genre": "Romance"
+    },
+    "Tweet Heart": {
+        "Local_Path": "game_images/Tweet_Heart.jpg",
+        "Genre": "Romance"
+    },
+    "In the Weeds (Lovelight, #2)": {
+        "Local_Path": "game_images/In_the_Weeds_Lovelight_2.jpg",
+        "Genre": "Romance"
+    },
+    "First Down (Beyond the Play, #1)": {
+        "Local_Path": "game_images/First_Down_Beyond_the_Play_1.jpg",
+        "Genre": "Romance"
+    },
+    "Love, Naturally (Rock Bottom Love, #1)": {
+        "Local_Path": "game_images/Love_Naturally_Rock_Bottom_Love_1.jpg",
+        "Genre": "Romance"
+    },
+    "Funny Feelings": {
+        "Local_Path": "game_images/Funny_Feelings.jpg",
+        "Genre": "Romance"
+    },
+    "Carry Me Through Christmas (Holly Ridge #1)": {
+        "Local_Path": "game_images/Carry_Me_Through_Christmas_Holly_Ridge_1.jpg",
+        "Genre": "Romance"
+    },
+    "Duke, Actually": {
+        "Local_Path": "game_images/Duke_Actually.jpg",
+        "Genre": "Romance"
+    },
+    "Begin Again": {
+        "Local_Path": "game_images/Begin_Again.jpg",
+        "Genre": "Romance"
+    },
+    "The Bodyguard": {
+        "Local_Path": "game_images/The_Bodyguard.jpg",
+        "Genre": "Romance"
+    },
+    "The Rival": {
+        "Local_Path": "game_images/The_Rival.jpg",
+        "Genre": "Romance"
+    },
+    "Bad Luck Bridesmaid": {
+        "Local_Path": "game_images/Bad_Luck_Bridesmaid.jpg",
+        "Genre": "Romance"
+    },
+    "Maybe This Once (Rock Bottom Love, #3)": {
+        "Local_Path": "game_images/Maybe_This_Once_Rock_Bottom_Love_3.jpg",
+        "Genre": "Romance"
+    },
+    "How to Love Your Neighbor (Jansen Brothers, #2)": {
+        "Local_Path": "game_images/How_to_Love_Your_Neighbor_Jansen_Brothers_2.jpg",
+        "Genre": "Romance"
+    },
+    "Last Time We Met": {
+        "Local_Path": "game_images/Last_Time_We_Met.jpg",
+        "Genre": "Romance"
+    },
+    "Instant Karma (Instant Karma, #1)": {
+        "Local_Path": "game_images/Instant_Karma_Instant_Karma_1.jpg",
+        "Genre": "Romance"
+    },
+    "The Twelve Dogs of Christmas (Pine Hollow, #1)": {
+        "Local_Path": "game_images/The_Twelve_Dogs_of_Christmas_Pine_Hollow_1.jpg",
+        "Genre": "Romance"
+    },
+    "Yes No Maybe So": {
+        "Local_Path": "game_images/Yes_No_Maybe_So.jpg",
+        "Genre": "Romance"
+    },
+    "The Baby Who Saved Christmas": {
+        "Local_Path": "game_images/The_Baby_Who_Saved_Christmas.jpg",
+        "Genre": "Romance"
+    },
+    "Long Story Short": {
+        "Local_Path": "game_images/Long_Story_Short.jpg",
+        "Genre": "Romance"
+    },
+    "The Cowboy's Christmas Family": {
+        "Local_Path": "game_images/The_Cowboys_Christmas_Family.jpg",
+        "Genre": "Romance"
+    },
+    "A Home for Lily": {
+        "Local_Path": "game_images/A_Home_for_Lily.jpg",
+        "Genre": "Romance"
+    },
+    "The Guy to Be Seen With": {
+        "Local_Path": "game_images/The_Guy_to_Be_Seen_With.jpg",
+        "Genre": "Romance"
+    },
+    "Queen of the Dead (The Ghost and the Goth, #2)": {
+        "Local_Path": "game_images/Queen_of_the_Dead_The_Ghost_and_the_Goth_2.jpg",
+        "Genre": "Romance"
+    },
+    "Mad About You": {
+        "Local_Path": "game_images/Mad_About_You.jpg",
+        "Genre": "Romance"
+    },
+    "The Silent Patient": {
+        "Local_Path": "game_images/The_Silent_Patient.jpg",
+        "Genre": "Thriller"
+    },
+    "The Woman in Cabin 10 (Lo Blacklock, #1)": {
+        "Local_Path": "game_images/The_Woman_in_Cabin_10_Lo_Blacklock_1.jpg",
+        "Genre": "Thriller"
+    },
+    "Verity": {
+        "Local_Path": "game_images/Verity.jpg",
+        "Genre": "Thriller"
+    },
+    "The Woman in the Window": {
+        "Local_Path": "game_images/The_Woman_in_the_Window.jpg",
+        "Genre": "Thriller"
+    },
+    "The Sun Down Motel": {
+        "Local_Path": "game_images/The_Sun_Down_Motel.jpg",
+        "Genre": "Thriller"
+    },
+    "Seven Deadly Sins": {
+        "Local_Path": "game_images/Seven_Deadly_Sins.jpg",
+        "Genre": "Thriller"
+    },
+    "The Last Secret of The Soul: One boy. One Holocaust. One Survivor.": {
+        "Local_Path": "game_images/The_Last_Secret_of_The_Soul_One_boy_One_Holocaust_One_Survivor.jpg",
+        "Genre": "Thriller"
+    },
+    "The Deep Lake": {
+        "Local_Path": "game_images/The_Deep_Lake.jpg",
+        "Genre": "Thriller"
+    },
+    "The Girls Weekend": {
+        "Local_Path": "game_images/The_Girls_Weekend.jpg",
+        "Genre": "Thriller"
+    },
+    "Big Little Lies": {
+        "Local_Path": "game_images/Big_Little_Lies.jpg",
+        "Genre": "Thriller"
+    },
+    "Then She Was Gone": {
+        "Local_Path": "game_images/Then_She_Was_Gone.jpg",
+        "Genre": "Thriller"
+    },
+    "An Anonymous Girl": {
+        "Local_Path": "game_images/An_Anonymous_Girl.jpg",
+        "Genre": "Thriller"
+    },
+    "Behind Her Eyes": {
+        "Local_Path": "game_images/Behind_Her_Eyes.jpg",
+        "Genre": "Thriller"
+    },
+    "The Best Lies": {
+        "Local_Path": "game_images/The_Best_Lies.jpg",
+        "Genre": "Thriller"
+    },
+    "Platform Seven": {
+        "Local_Path": "game_images/Platform_Seven.jpg",
+        "Genre": "Thriller"
+    },
+    "Carrie": {
+        "Local_Path": "game_images/Carrie.jpg",
+        "Genre": "Thriller"
+    },
+    "In a Dark, Dark Wood": {
+        "Local_Path": "game_images/In_a_Dark_Dark_Wood.jpg",
+        "Genre": "Thriller"
+    },
+    "The Death of Mrs. Westaway": {
+        "Local_Path": "game_images/The_Death_of_Mrs_Westaway.jpg",
+        "Genre": "Thriller"
+    },
+    "The Turn of the Key": {
+        "Local_Path": "game_images/The_Turn_of_the_Key.jpg",
+        "Genre": "Thriller"
+    },
+    "Daughters of the Lake": {
+        "Local_Path": "game_images/Daughters_of_the_Lake.jpg",
+        "Genre": "Thriller"
+    },
+    "Every Single Secret": {
+        "Local_Path": "game_images/Every_Single_Secret.jpg",
+        "Genre": "Thriller"
+    },
+    "The Last Time I Lied": {
+        "Local_Path": "game_images/The_Last_Time_I_Lied.jpg",
+        "Genre": "Thriller"
+    },
+    "Into the Water": {
+        "Local_Path": "game_images/Into_the_Water.jpg",
+        "Genre": "Thriller"
+    },
+    "After All I've Done": {
+        "Local_Path": "game_images/After_All_Ive_Done.jpg",
+        "Genre": "Thriller"
+    },
+    "Hurry Home": {
+        "Local_Path": "game_images/Hurry_Home.jpg",
+        "Genre": "Thriller"
+    },
+    "Nowhere Boulevard": {
+        "Local_Path": "game_images/Nowhere_Boulevard.jpg",
+        "Genre": "Thriller"
+    },
+    "Theodore The Neighbour's Cat (Theodore: The Neighbour's Cat #1)": {
+        "Local_Path": "game_images/Theodore_The_Neighbours_Cat_Theodore_The_Neighbours_Cat_1.jpg",
+        "Genre": "Thriller"
+    },
+    "A Thing of Dark Imaginings": {
+        "Local_Path": "game_images/A_Thing_of_Dark_Imaginings.jpg",
+        "Genre": "Thriller"
+    },
+    "Don't Kill Me Because I'm Beautiful: A Near Future Suspense thriller": {
+        "Local_Path": "game_images/Dont_Kill_Me_Because_Im_Beautiful_A_Near_Future_Suspense_thriller.jpg",
+        "Genre": "Thriller"
+    },
+    "Hot House": {
+        "Local_Path": "game_images/Hot_House.jpg",
+        "Genre": "Thriller"
+    },
+    "The Call of Cassandra Rose": {
+        "Local_Path": "game_images/The_Call_of_Cassandra_Rose.jpg",
+        "Genre": "Thriller"
+    },
+    "Target Acquired (DCYE, #6)": {
+        "Local_Path": "game_images/Target_Acquired_DCYE_6.jpg",
+        "Genre": "Thriller"
+    },
+    "The Raise": {
+        "Local_Path": "game_images/The_Raise.jpg",
+        "Genre": "Thriller"
+    },
+    "A Mother's Love": {
+        "Local_Path": "game_images/A_Mothers_Love.jpg",
+        "Genre": "Thriller"
+    },
+    "Blood on Their Hands": {
+        "Local_Path": "game_images/Blood_on_Their_Hands.jpg",
+        "Genre": "Thriller"
+    },
+    "The Wives": {
+        "Local_Path": "game_images/The_Wives.jpg",
+        "Genre": "Thriller"
+    },
+    "Something In the Water": {
+        "Local_Path": "game_images/Something_In_the_Water.jpg",
+        "Genre": "Thriller"
+    },
+    "The Secret She Kept": {
+        "Local_Path": "game_images/The_Secret_She_Kept.jpg",
+        "Genre": "Thriller"
+    },
+    "A Question of Sanity": {
+        "Local_Path": "game_images/A_Question_of_Sanity.jpg",
+        "Genre": "Thriller"
+    },
+    "Dangerous Games (DCYE, #4)": {
+        "Local_Path": "game_images/Dangerous_Games_DCYE_4.jpg",
+        "Genre": "Thriller"
+    },
+    "Pedigree Crush with a Twisted Gene": {
+        "Local_Path": "game_images/Pedigree_Crush_with_a_Twisted_Gene.jpg",
+        "Genre": "Thriller"
+    },
+    "Point Blank: Volume 7 of Don't Close Your Eyes": {
+        "Local_Path": "game_images/Point_Blank_Volume_7_of_Dont_Close_Your_Eyes.jpg",
+        "Genre": "Thriller"
+    },
+    "The Yard (Scotland Yard's Murder Squad, #1)": {
+        "Local_Path": "game_images/The_Yard_Scotland_Yards_Murder_Squad_1.jpg",
+        "Genre": "Thriller"
+    },
+    "Dark Around the Edges": {
+        "Local_Path": "game_images/Dark_Around_the_Edges.jpg",
+        "Genre": "Thriller"
+    },
+    "Don't Close Your Eyes (DCYE, #1)": {
+        "Local_Path": "game_images/Dont_Close_Your_Eyes_DCYE_1.jpg",
+        "Genre": "Thriller"
+    },
+    "This Lie Will Kill You": {
+        "Local_Path": "game_images/This_Lie_Will_Kill_You.jpg",
+        "Genre": "Thriller"
+    },
+    "The Romanov Cross": {
+        "Local_Path": "game_images/The_Romanov_Cross.jpg",
+        "Genre": "Thriller"
+    },
+    "Leverage": {
+        "Local_Path": "game_images/Leverage.jpg",
+        "Genre": "Thriller"
+    },
+    "Broken Things": {
+        "Local_Path": "game_images/Broken_Things.jpg",
+        "Genre": "Thriller"
+    },
+    "Rat-a-tat-tat": {
+        "Local_Path": "game_images/Rat-a-tat-tat.jpg",
+        "Genre": "Thriller"
+    },
+    "People Like Us": {
+        "Local_Path": "game_images/People_Like_Us.jpg",
+        "Genre": "Thriller"
+    },
+    "The Guest Book": {
+        "Local_Path": "game_images/The_Guest_Book.jpg",
+        "Genre": "Thriller"
+    },
+    "Bad Girls with Perfect Faces": {
+        "Local_Path": "game_images/Bad_Girls_with_Perfect_Faces.jpg",
+        "Genre": "Thriller"
+    },
+    "Bad Luck and Trouble (Jack Reacher, #11)": {
+        "Local_Path": "game_images/Bad_Luck_and_Trouble_Jack_Reacher_11.jpg",
+        "Genre": "Thriller"
+    },
+    "The Cheerleaders": {
+        "Local_Path": "game_images/The_Cheerleaders.jpg",
+        "Genre": "Thriller"
+    },
+    "Blue Moon (Jack Reacher #24)": {
+        "Local_Path": "game_images/Blue_Moon_Jack_Reacher_24.jpg",
+        "Genre": "Thriller"
+    },
+    "61 Hours (Jack Reacher, #14)": {
+        "Local_Path": "game_images/61_Hours_Jack_Reacher_14.jpg",
+        "Genre": "Thriller"
+    },
+    "Dare Me": {
+        "Local_Path": "game_images/Dare_Me.jpg",
+        "Genre": "Thriller"
+    },
+    "Persuader (Jack Reacher, #7)": {
+        "Local_Path": "game_images/Persuader_Jack_Reacher_7.jpg",
+        "Genre": "Thriller"
+    },
+    "The Fever": {
+        "Local_Path": "game_images/The_Fever.jpg",
+        "Genre": "Thriller"
+    },
+    "Too Much Time (Jack Reacher, #22.3)": {
+        "Local_Path": "game_images/Too_Much_Time_Jack_Reacher_223.jpg",
+        "Genre": "Thriller"
+    },
+    "Open Season (Joe Pickett, #1)": {
+        "Local_Path": "game_images/Open_Season_Joe_Pickett_1.jpg",
+        "Genre": "Thriller"
+    },
+    "The Party": {
+        "Local_Path": "game_images/The_Party.jpg",
+        "Genre": "Thriller"
+    },
+    "Long Range (Joe Pickett, #20)": {
+        "Local_Path": "game_images/Long_Range_Joe_Pickett_20.jpg",
+        "Genre": "Thriller"
+    },
+    "The Bitterroots (Highway Quartet, #5)": {
+        "Local_Path": "game_images/The_Bitterroots_Highway_Quartet_5.jpg",
+        "Genre": "Thriller"
+    },
+    "The Disappeared (Joe Pickett, #18)": {
+        "Local_Path": "game_images/The_Disappeared_Joe_Pickett_18.jpg",
+        "Genre": "Thriller"
+    },
+    "The Lying Woods": {
+        "Local_Path": "game_images/The_Lying_Woods.jpg",
+        "Genre": "Thriller"
+    },
+    "Paradise Valley (Highway Quartet, #4)": {
+        "Local_Path": "game_images/Paradise_Valley_Highway_Quartet_4.jpg",
+        "Genre": "Thriller"
+    },
+    "The Favorite Sister": {
+        "Local_Path": "game_images/The_Favorite_Sister.jpg",
+        "Genre": "Thriller"
+    },
+    "Stone Cold (Joe Pickett, #14)": {
+        "Local_Path": "game_images/Stone_Cold_Joe_Pickett_14.jpg",
+        "Genre": "Thriller"
+    },
+    "Come Find Me": {
+        "Local_Path": "game_images/Come_Find_Me.jpg",
+        "Genre": "Thriller"
+    },
+    "Force Of Nature (Joe Pickett, #12)": {
+        "Local_Path": "game_images/Force_Of_Nature_Joe_Pickett_12.jpg",
+        "Genre": "Thriller"
+    },
+    "The Sisters": {
+        "Local_Path": "game_images/The_Sisters.jpg",
+        "Genre": "Thriller"
+    },
+    "In Plain Sight (Joe Pickett, #6)": {
+        "Local_Path": "game_images/In_Plain_Sight_Joe_Pickett_6.jpg",
+        "Genre": "Thriller"
+    },
+    "A Simple Favor": {
+        "Local_Path": "game_images/A_Simple_Favor.jpg",
+        "Genre": "Thriller"
+    },
+    "Free Fire (Joe Pickett, #7)": {
+        "Local_Path": "game_images/Free_Fire_Joe_Pickett_7.jpg",
+        "Genre": "Thriller"
+    },
+    "Perfect Liars": {
+        "Local_Path": "game_images/Perfect_Liars.jpg",
+        "Genre": "Thriller"
+    },
+    "Out Of Range (Joe Pickett, #5)": {
+        "Local_Path": "game_images/Out_Of_Range_Joe_Pickett_5.jpg",
+        "Genre": "Thriller"
+    },
+    "The Highway (Highway Quartet, #2)": {
+        "Local_Path": "game_images/The_Highway_Highway_Quartet_2.jpg",
+        "Genre": "Thriller"
+    },
+    "All the Missing Girls": {
+        "Local_Path": "game_images/All_the_Missing_Girls.jpg",
+        "Genre": "Thriller"
+    },
+    "Below Zero (Joe Pickett, #9)": {
+        "Local_Path": "game_images/Below_Zero_Joe_Pickett_9.jpg",
+        "Genre": "Thriller"
+    },
+    "13 Minutes": {
+        "Local_Path": "game_images/13_Minutes.jpg",
+        "Genre": "Thriller"
+    },
+    "Blood Trail (Joe Pickett, #8)": {
+        "Local_Path": "game_images/Blood_Trail_Joe_Pickett_8.jpg",
+        "Genre": "Thriller"
+    },
+    "Social Creature": {
+        "Local_Path": "game_images/Social_Creature.jpg",
+        "Genre": "Thriller"
+    },
+    "Savage Run (Joe Pickett, #2)": {
+        "Local_Path": "game_images/Savage_Run_Joe_Pickett_2.jpg",
+        "Genre": "Thriller"
+    },
+    "Cold Wind (Joe Pickett, #11)": {
+        "Local_Path": "game_images/Cold_Wind_Joe_Pickett_11.jpg",
+        "Genre": "Thriller"
+    },
+    "Tell Me A Secret": {
+        "Local_Path": "game_images/Tell_Me_A_Secret.jpg",
+        "Genre": "Thriller"
+    },
+    "Back of Beyond (Highway Quartet, #1)": {
+        "Local_Path": "game_images/Back_of_Beyond_Highway_Quartet_1.jpg",
+        "Genre": "Thriller"
+    },
+    "If We Were Villains": {
+        "Local_Path": "game_images/If_We_Were_Villains.jpg",
+        "Genre": "Thriller"
+    },
+    "Boar Island (Anna Pigeon, #19)": {
+        "Local_Path": "game_images/Boar_Island_Anna_Pigeon_19.jpg",
+        "Genre": "Thriller"
+    },
+    "Bound (The Witches of Doyle #1)": {
+        "Local_Path": "game_images/Bound_The_Witches_of_Doyle_1.jpg",
+        "Genre": "Thriller"
+    },
+    "Ill Wind (Anna Pigeon, #3)": {
+        "Local_Path": "game_images/Ill_Wind_Anna_Pigeon_3.jpg",
+        "Genre": "Thriller"
+    },
+    "The 7 1/2 Deaths of Evelyn Hardcastle": {
+        "Local_Path": "game_images/The_7_12_Deaths_of_Evelyn_Hardcastle.jpg",
+        "Genre": "Thriller"
+    },
+    "Borderline (Anna Pigeon, #15)": {
+        "Local_Path": "game_images/Borderline_Anna_Pigeon_15.jpg",
+        "Genre": "Thriller"
+    },
+    "Winter Study (Anna Pigeon, #14)": {
+        "Local_Path": "game_images/Winter_Study_Anna_Pigeon_14.jpg",
+        "Genre": "Thriller"
+    },
+    "The Girl in the Ice (Detective Erika Foster, #1)": {
+        "Local_Path": "game_images/The_Girl_in_the_Ice_Detective_Erika_Foster_1.jpg",
+        "Genre": "Thriller"
+    },
+    "Destroyer Angel (Anna Pigeon, #18)": {
+        "Local_Path": "game_images/Destroyer_Angel_Anna_Pigeon_18.jpg",
+        "Genre": "Thriller"
+    },
+    "A Breath After Drowning": {
+        "Local_Path": "game_images/A_Breath_After_Drowning.jpg",
+        "Genre": "Thriller"
+    },
+    "High Country (Anna Pigeon, #12)": {
+        "Local_Path": "game_images/High_Country_Anna_Pigeon_12.jpg",
+        "Genre": "Thriller"
+    },
+    "Track of the Cat (Anna Pigeon, #1)": {
+        "Local_Path": "game_images/Track_of_the_Cat_Anna_Pigeon_1.jpg",
+        "Genre": "Thriller"
+    },
+    "Pride and Prejudice": {
+        "Local_Path": "game_images/Pride_and_Prejudice.jpg",
+        "Genre": "Classic"
+    },
+    "A Clockwork Orange": {
+        "Local_Path": "game_images/A_Clockwork_Orange.jpg",
+        "Genre": "Classic"
+    },
+    "The Grapes of Wrath": {
+        "Local_Path": "game_images/The_Grapes_of_Wrath.jpg",
+        "Genre": "Classic"
+    },
+    "Brave New World": {
+        "Local_Path": "game_images/Brave_New_World.jpg",
+        "Genre": "Classic"
+    },
+    "Fahrenheit 451": {
+        "Local_Path": "game_images/Fahrenheit_451.jpg",
+        "Genre": "Classic"
+    },
+    "The Catcher in the Rye": {
+        "Local_Path": "game_images/The_Catcher_in_the_Rye.jpg",
+        "Genre": "Classic"
+    },
+    "The Divine Comedy": {
+        "Local_Path": "game_images/The_Divine_Comedy.jpg",
+        "Genre": "Classic"
+    },
+    "Psycho": {
+        "Local_Path": "game_images/Psycho.jpg",
+        "Genre": "Classic"
+    },
+    "Frankenstein": {
+        "Local_Path": "game_images/Frankenstein.jpg",
+        "Genre": "Classic"
+    },
+    "The Great Gatsby": {
+        "Local_Path": "game_images/The_Great_Gatsby.jpg",
+        "Genre": "Classic"
+    },
+    "The Invisible Man": {
+        "Local_Path": "game_images/The_Invisible_Man.jpg",
+        "Genre": "Classic"
+    },
+    "A Princess of Mars": {
+        "Local_Path": "game_images/A_Princess_of_Mars.jpg",
+        "Genre": "Classic"
+    },
+    "The Unbearable Lightness of Being": {
+        "Local_Path": "game_images/The_Unbearable_Lightness_of_Being.jpg",
+        "Genre": "Classic"
+    },
+    "The Godfather": {
+        "Local_Path": "game_images/The_Godfather.jpg",
+        "Genre": "Classic"
+    },
+    "The Wealth of Nations": {
+        "Local_Path": "game_images/The_Wealth_of_Nations.jpg",
+        "Genre": "Classic"
+    },
+    "The Master and Margarita": {
+        "Local_Path": "game_images/The_Master_and_Margarita.jpg",
+        "Genre": "Classic"
+    },
+    "The Handmaid's Tale": {
+        "Local_Path": "game_images/The_Handmaids_Tale.jpg",
+        "Genre": "Classic"
+    },
+    "Labyrinths": {
+        "Local_Path": "game_images/Labyrinths.jpg",
+        "Genre": "Classic"
+    },
+    "I Know Why the Caged Bird Sings": {
+        "Local_Path": "game_images/I_Know_Why_the_Caged_Bird_Sings.jpg",
+        "Genre": "Classic"
+    },
+    "Cat's Eye": {
+        "Local_Path": "game_images/Cats_Eye.jpg",
+        "Genre": "Classic"
+    },
+    "Despair": {
+        "Local_Path": "game_images/Despair.jpg",
+        "Genre": "Classic"
+    }
+}
