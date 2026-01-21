@@ -3,6 +3,7 @@ from tkinter import messagebox
 import random
 import json
 import os
+import PIL
 from PIL import Image, ImageDraw, ImageFont, ImageTk
 from library_game_logic import get_author_surname, get_author_first_name, check_book_position, load_books_by_genre, sort_books_by_surname, sort_books_by_first_name
 
