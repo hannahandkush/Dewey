@@ -5,13 +5,8 @@ import importlib.util
 from PIL import Image, ImageTk
 
 # Dynamically import the game module
-# To test a different version, change this import statement or pass it as an argument
-# For now, we'll assume the game file is library_game2.py in the Hannah Version/game directory
-# In a real scenario, you might pass this as a pytest fixture or command-line argument
-# sys.path.append('Hannah Version/game')
-# from library_game2 import LibraryGame
 
-spec = importlib.util.spec_from_file_location("homebutton_module", "Hannah Version/game/homebutton.py")
+spec = importlib.util.spec_from_file_location("game_module", "project.py")
 game_module = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(game_module)
 LibraryGame = game_module.LibraryGame
@@ -23,10 +18,6 @@ def get_button_by_command(canvas, command_method):
         if item_type == 'window':
             window_widget = canvas.itemcget(item_id, 'window')
             if window_widget:
-                # Tkinter doesn't directly expose the Python command object easily from create_window
-                # We'll rely on our knowledge of how the buttons are set up
-                # This is a bit brittle, but necessary without complex mocking of Tkinter internals
-                # For testing, we'll often just call the methods directly or mock the widget creation
                 pass
     return None # Fallback if not found
 
@@ -41,7 +32,7 @@ def game_instance():
     mock_root.winfo_height.return_value = 900
     mock_root.winfo_children.return_value = [] # Start with no children for clear_screen
     
-    # We need to simulate the pack method for content_frame correctly
+    # simulate the pack method for content_frame 
     def mock_pack(fill=tk.BOTH, expand=True, **kwargs):
         pass # Do nothing
     
@@ -108,18 +99,6 @@ def test_home_button_visibility(game_instance):
     # Initial state: Title page
     game_instance.show_title_screen()
     # Check if home button is explicitly hidden or not placed.
-    # Given our current implementation, create_home_button is called
-    # and then place_forget might be called.
-    # In this mocked environment, we assume show_title_screen doesn't place it
-    # as per the latest user request (remove all text except start game button)
-    # However, this test needs to assume an actual Tkinter setup for 'visible' check
-    # With mocking, we check if the _place method was called
-
-    # Since we removed the check for home_btn existing, and moved create_home_button calls
-    # into the show_... methods, we now explicitly need to check if .place() was called.
-    
-    # We can't directly check self.home_btn.winfo_ismapped() on a mock.
-    # We'll check if the place method on the home_btn mock was called.
 
     # Transition to story page
     game_instance.show_story()
@@ -138,21 +117,10 @@ def test_home_button_visibility(game_instance):
     game_instance.end_game()
     # Assert home_btn.place was called
 
-    # This test currently requires deep introspection into the mock calls,
-    # which makes it complex. A simpler way for this test's context
-    # is to assume that if the methods responsible for creating/placing buttons
-    # are called, the buttons "are there".
-    # For now, let's focus on the *state changes* and *command executions*.
-    
-    # For now, we will simply check if the relevant show methods complete without error,
-    # and assume button creation/placement is part of that.
-    
-    # This test is more about flow than explicit visibility on mock.
-
     # Home button should be visible on show_story, show_mode_selection, show_game_screen, end_game
     # It should NOT be visible on show_title_screen
 
-    # Let's check internal state for screen.
+    # Check internal state for screen.
     game_instance.show_title_screen() # Ensure initial state is title
     assert game_instance.current_screen == "title"
     
@@ -167,11 +135,6 @@ def test_home_button_visibility(game_instance):
 
     game_instance.end_game()
     assert game_instance.current_screen == "end_game" # (Assuming end_game sets this)
-    
-    # Test for creation calls directly.
-    # This requires a more sophisticated mock that tracks widget creation and placement calls.
-    # Since we are creating buttons locally, we can't check a persistent self.home_btn mock.
-    # For now, this aspect of visibility is hard to test with simple mocks without over-engineering.
 
 # Test 2: Back button functionality
 def test_back_button_functionality(game_instance):
@@ -179,8 +142,7 @@ def test_back_button_functionality(game_instance):
     game_instance.show_story()
     assert game_instance.story_index == 0
     # On first page, back button should not be "active" (e.g., clickable or visible)
-    # We will verify this by checking if previous_story is called when it shouldn't be,
-    # or if the button is simply not created/placed.
+    # We will verify this by checking if previous_story is called when it shouldn't be, or if the button is simply not created/placed.
 
     # Move to story page 1
     game_instance.next_story()

@@ -4,22 +4,29 @@ import random
 import json
 import os
 from PIL import Image, ImageDraw, ImageFont, ImageTk
-from library_game_logic import get_author_surname, check_book_position, load_books_by_genre, sort_books_by_rank
+from library_game_logic import get_author_surname, get_author_first_name, check_book_position, load_books_by_genre, sort_books_by_surname, sort_books_by_first_name
+
+# Import enhancement modules from src folder
+from src.notifications import show_geese_popup_overlay, show_librarian_angry_overlay
+from src.progress_tracker import load_progress, save_progress, mark_genre_complete, create_completion_badge
+from src.end_screen import show_enhanced_end_screen
+from src.reset_progress import confirm_reset, reset_all_progress, show_reset_success
+from src.gamebackground import backgroundhandler
+from src.bookspines import calculate_book_dimensions, create_book_spine_image
+from src.drag_logic import DragManager
 
 
 class LibraryGame:
     def __init__(self, root):
         self.root = root
-        self.root.title("Dewey's Library Sorting Game")
+        self.root.title("Dewey")
         self.root.geometry("1200x900")
         self.root.configure(bg="#f5f0e8")
-        
         self.base_button_font_size = 32
         self.base_button_padx = 60
         self.base_button_pady = 25
         self.base_window_width = 1200
         self.base_window_height = 900
-        
         self.current_screen = "title"
         self.story_index = 0
         self.selected_genre = None
@@ -28,6 +35,8 @@ class LibraryGame:
         self.score = 0
         self.current_book_index = 0
         self.total_books = 5
+        self.genre_progress = load_progress()
+        self.sort_method = 'surname'  # Will be 'surname' or 'first_name'
         
         script_dir = os.path.dirname(os.path.abspath(__file__))
         json_path = os.path.join(script_dir, "..", "artifacts", "book_covers", "local_game_images.json")
@@ -35,14 +44,27 @@ class LibraryGame:
             full_book_data = json.load(f)
         
         self.book_cover_paths = {title: details["Local_Path"] for title, details in full_book_data.items()}
-        
         self.show_title_screen()
 
     def clear_screen(self):
         for widget in self.root.winfo_children():
             widget.destroy()
+    
+    def reset_progress(self):
+        """Reset all progress and start fresh."""
+        # Ask for confirmation
+        if confirm_reset():
+            # Reset progress using the module
+            self.genre_progress = reset_all_progress()
+            # Show success message
+            show_reset_success()
+            # Refresh the title screen to update any UI
+            self.show_title_screen()
 
-    # -------- Title Page Section --------------------------------------------------------------------------------------------------------------
+# =====================================================================================================================
+# -------- Title Page Section -----------------------------------------------------------------------------------------
+# =====================================================================================================================
+    
     def show_title_screen(self):
         self.clear_screen()
         self.current_screen = "title"
@@ -72,6 +94,19 @@ class LibraryGame:
             borderwidth=5
         )
         self.start_btn_window = self.canvas.create_window(0, 0, window=self.start_btn, anchor='nw')
+        
+        # Add "Start Fresh" button
+        self.reset_btn = tk.Button(
+            self.root, text="Start Fresh",
+            font=("Georgia", 16),
+            bg="#8b0000", fg="#000000",
+            padx=20, pady=10,
+            command=self.reset_progress,
+            cursor="hand2",
+            relief=tk.RAISED,
+            borderwidth=3
+        )
+        self.reset_btn_window = self.canvas.create_window(0, 0, window=self.reset_btn, anchor='nw')
 
     def on_resize_title_screen(self, event):
         if not hasattr(self, 'original_title_image'):
@@ -100,7 +135,20 @@ class LibraryGame:
         btn_y = new_height / 2
         self.canvas.coords(self.start_btn_window, btn_x, btn_y)
         
-    # -------- Storyline Section ---------------------------------------------------------------------------------------------------------------
+        # Position "Start Fresh" button (bottom left corner)
+        reset_font_size = max(int(16 * scale_factor), 10)
+        reset_padx = max(int(20 * scale_factor), 10)
+        reset_pady = max(int(10 * scale_factor), 5)
+        self.reset_btn.config(font=("Georgia", reset_font_size), padx=reset_padx, pady=reset_pady)
+        
+        reset_x = new_width * 0.15
+        reset_y = new_height * 0.85
+        self.canvas.coords(self.reset_btn_window, reset_x, reset_y)
+
+# ====================================================================================================================
+# -------- Storyline Section -----------------------------------------------------------------------------------------
+# ====================================================================================================================
+
     def show_story(self):
         self.clear_screen()
         self.current_screen = "story"
@@ -155,8 +203,7 @@ class LibraryGame:
         
         # Keep buttons on top
         self.story_canvas.tag_raise("button")
-
-    
+ 
     def display_story_page(self):
         self.story_canvas.delete("all")
         
@@ -172,12 +219,35 @@ class LibraryGame:
                 # Handle missing image file
                 self.story_canvas.create_text(self.root.winfo_width() / 2, self.root.winfo_height() / 2, text=f"Image not found:\n{image_path}", font=("Georgia", 18))
 
+# ====================================================================================================================
+# -------- Mode Selection -----------------------------------------------------------------------------------------
+# ====================================================================================================================
+
             if self.story_index == 2:
                 # Create genre selection buttons instead of Continue
                 current_width = self.root.winfo_width()
                 current_height = self.root.winfo_height()
 
                 button_y = current_height - 100
+                
+                # Add completion checkmarks above buttons
+                genres = ['classic', 'romance', 'thriller']
+                positions = [0.25, 0.50, 0.75]
+                
+                for genre, position in zip(genres, positions):
+                    is_completed = self.genre_progress.get(genre, {}).get('completed', False)
+                    badge_x = int(current_width * position)
+                    badge_y = button_y - 60  # Above the button
+                    
+                    if is_completed:
+                        # Draw green checkmark
+                        self.story_canvas.create_text(
+                            badge_x, badge_y,
+                            text="✓ COMPLETED",
+                            font=("Georgia", 14, "bold"),
+                            fill="#FFFFFF",
+                            tags="completion"
+                        )
                 
                 # Classic Button
                 btn_classic = tk.Button(
@@ -248,27 +318,32 @@ class LibraryGame:
         self.story_index -= 1
         self.display_story_page()
     
+# ====================================================================================================================
+# -------- Gameplay Section -----------------------------------------------------------------------------------------
+# ====================================================================================================================
 
-    
-    # -------- Gameplay Section ----------------------------------------------------------------------------------------------------------------
     def start_game_with_genre(self, genre):
         self.selected_genre = genre
+        
         self.books_pool = load_books_by_genre(genre).copy()
         random.shuffle(self.books_pool)
         
         self.books_to_place = self.books_pool[:self.total_books]
         remaining = self.books_pool[self.total_books:]
-        self.shelf_books = sort_books_by_rank(random.sample(remaining, min(4, len(remaining))))
+        shelf_books_unsorted = random.sample(remaining, min(4, len(remaining)))
+        
+        self.shelf_books = sort_books_by_surname(shelf_books_unsorted)
         
         self.current_book_index = 0
-        self.score = 0
-        
+        self.score = 0       
+    
         self.show_game_screen()
     
     def show_game_screen(self):
         self.clear_screen()
         self.current_screen = "game"
         self.setup_game_ui()
+        self.drag_manager = DragManager(self)
         self.draw_game()
         # Create Home button locally
         home_btn = tk.Button(
@@ -286,7 +361,7 @@ class LibraryGame:
         header_frame.pack(fill=tk.X)
         header_frame.pack_propagate(False)
         
-        tk.Label(header_frame, text="📚 Dewey's Library 📚",
+        tk.Label(header_frame, text="📚🪿📖 Dewey 📖🪿📚",
                 font=("Georgia", 28, "bold"), bg="#e8d5b7", fg="#3d2817").pack(pady=10)
         
         info_frame = tk.Frame(header_frame, bg="#e8d5b7")
@@ -304,7 +379,7 @@ class LibraryGame:
                                          bg="#f5f0e8", fg="#3d2817", wraplength=1100)
         self.instruction_label.pack(pady=10)
         
-        self.main_canvas = tk.Canvas(self.root, bg="#f5f0e8", width=1150, height=650, highlightthickness=0)
+        self.main_canvas = tk.Canvas(self.root, width=1150, height=650, highlightthickness=0)
         self.main_canvas.pack(pady=5)
         
         self.book_labels = []
@@ -312,9 +387,20 @@ class LibraryGame:
         self.hovered_slot = None
         self.selected_slot = None
         self.book_images = []
-        self.shelf_y = 400
+        self.shelf_y = 530  # Updated shelf height for background image
+        
+        # Initialize background handler (Hannah's module)
+        self.bg_handler = backgroundhandler(self.main_canvas, 1150, 650)
+        if self.bg_handler.load_background():
+            self.bg_handler.display_background()
+            self.main_canvas.bind('<Configure>', lambda e: self.bg_handler.on_resize(e))
+        else:
+            self.bg_handler.create_fallback_background()
     
     def draw_game(self):
+        # Redisplay background (Hannah's module)
+        if hasattr(self, 'bg_handler') and self.bg_handler.original_bg_image:
+            self.bg_handler.display_background()
         self.update_instructions()
         self.draw_shelf()
         self.draw_bookshelf()
@@ -323,10 +409,11 @@ class LibraryGame:
     def update_instructions(self):
         if self.current_book_index < len(self.books_to_place):
             current_book = self.books_to_place[self.current_book_index]
-            # Unpack the 4-element tuple
-            title, author, color, rank = current_book 
+            # Unpack the 3-element tuple (no rank anymore)
+            title, author, color = current_book 
+            
             self.instruction_label.config(
-                text=f"Drag '{title}' (Rank: {rank}) from the trolley to the correct spot!\n(Books are sorted by rank)"
+                text=f"Drag '{title}' by {author} from the trolley to the correct spot!\n(Books are sorted alphabetically by author's surname)"
             )
             self.progress_label.config(text=f"Book: {self.current_book_index + 1}/{self.total_books}")
     
@@ -346,8 +433,8 @@ class LibraryGame:
         x = 872
         y = (650 - book_height) // 2
 
-        # Unpack the 4-element tuple
-        title, author, color, rank = self.books_to_place[self.current_book_index] 
+        # Unpack the 3-element tuple (no rank)
+        title, author, color = self.books_to_place[self.current_book_index] 
         
         image_path = self.book_cover_paths.get(title)
         
@@ -366,14 +453,13 @@ class LibraryGame:
         self.book_images.append(book_img)
         self.main_canvas.create_image(x, y, image=book_img, anchor='nw', tags="draggable")
         
-        self.main_canvas.tag_bind("draggable", "<Button-1>", self.start_drag)
-        self.main_canvas.tag_bind("draggable", "<B1-Motion>", self.on_drag)
-        self.main_canvas.tag_bind("draggable", "<ButtonRelease-1>", self.end_drag)
+        self.main_canvas.tag_bind("draggable", "<Button-1>", self.drag_manager.start_drag)
+        self.main_canvas.tag_bind("draggable", "<B1-Motion>", self.drag_manager.on_drag)
+        self.main_canvas.tag_bind("draggable", "<ButtonRelease-1>", self.drag_manager.end_drag)
         self.main_canvas.tag_bind("draggable", "<Enter>", lambda e: self.main_canvas.config(cursor="hand2"))
         self.main_canvas.tag_bind("draggable", "<Leave>", lambda e: self.main_canvas.config(cursor=""))
         
         self.drag_book_info = {'width': book_width, 'height': book_height, 'x': x, 'y': y}
-
     
     def create_pretty_book_cover(self, width, height, title, author, base_color):
         img = Image.new('RGB', (width, height), base_color)
@@ -402,8 +488,6 @@ class LibraryGame:
         draw.text((width//2, height - 15), author, fill='white', font=author_font, anchor='mm')
         
         return ImageTk.PhotoImage(img)
-        
-# -- bookshelf with other books ---
     
     def draw_bookshelf(self):
         canvas_width = 1150
@@ -425,14 +509,11 @@ class LibraryGame:
                                                      fill="", outline="", tags=f"slot_{i}")
             self.slot_areas.append((i, slot, x + width // 2))
             
-            self.main_canvas.tag_bind(f"slot_{i}", "<Enter>", lambda e, idx=i: self.on_slot_hover(idx))
-            self.main_canvas.tag_bind(f"slot_{i}", "<Leave>", lambda e: self.on_slot_leave())
-            
             if i < len(self.shelf_books):
                 current_x += book_widths[i] + spacing
         
         current_x = start_x
-        for i, (title, author, color, rank) in enumerate(self.shelf_books):
+        for i, (title, author, color) in enumerate(self.shelf_books):
             book_width = book_widths[i]
             book_height, font_size = self.calculate_book_dimensions(title, author, book_width)
             y = self.shelf_y - book_height
@@ -440,235 +521,62 @@ class LibraryGame:
             self.book_labels.append({
                 'index': i, 'original_x': current_x, 'current_x': current_x,
                 'y': y, 'width': book_width, 'height': book_height,
-                'title': title, 'author': author, 'color': color, 'font_size': font_size,
-                'rank': rank
+                'title': title, 'author': author, 'color': color, 'font_size': font_size
             })
             
-            self.draw_book_spine(i, current_x, y, book_width, book_height, color, title, author, font_size, rank)
+            self.draw_book_spine(i, current_x, y, book_width, book_height, color, title, author, font_size)
             current_x += book_width + spacing
     
     def calculate_book_dimensions(self, title, author, width):
-        max_font_size = 18
-        min_font_size = 12
-        max_book_height = 450
-        min_book_height = 200
-        
-        title_text = title
-        author_text = author.upper()
-        separator = "    "
-        
-        vertical_padding = 60
-        horizontal_padding = 20
+        return calculate_book_dimensions(title, author, width)
 
-        for font_size in range(max_font_size, min_font_size - 1, -1):
-            try:
-                title_font = ImageFont.truetype("/System/Library/Fonts/Helvetica.ttc", font_size, index=1)
-                author_font = ImageFont.truetype("/System/Library/Fonts/Helvetica.ttc", font_size, index=2)
-            except:
-                title_font = ImageFont.load_default()
-                author_font = ImageFont.load_default()
-            
-            title_length = title_font.getlength(title_text)
-            separator_length = title_font.getlength(separator)
-            author_length = author_font.getlength(author_text)
-            total_length = title_length + separator_length + author_length
-            
-            required_height = int(total_length) + vertical_padding
-            text_fits_width = total_length <= (width - horizontal_padding)
-            
-            if required_height <= max_book_height and text_fits_width:
-                return required_height, font_size
-
-        return int(total_length) + vertical_padding, min_font_size
-
-    def draw_book_spine(self, index, x, y, width, height, color, title, author, font_size, rank):
-        book_img = self.create_book_spine_image(width, height, color, title, author, font_size, rank)
+    def draw_book_spine(self, index, x, y, width, height, color, title, author, font_size):
+        book_img = self.create_book_spine_image(width, height, color, title, author, font_size)
         self.book_images.append(book_img)
         self.main_canvas.create_image(x, y, image=book_img, anchor='nw', tags=f"book_{index}")
     
-    def create_book_spine_image(self, width, height, color, title, author, font_size, rank):
-        img = Image.new('RGB', (width, height), color)
-        draw = ImageDraw.Draw(img)
-        
-        dark = self.darken_color(color)
-        light = self.lighten_color(color)
-        
-        for i in range(10):
-            draw.rectangle([i, 0, i+1, height], fill=dark)
-        for i in range(10):
-            draw.rectangle([width-i-1, 0, width-i, height], fill=light)
-        draw.rectangle([8, 8, width-8, 22], fill=light)
-        draw.rectangle([0, 0, width-1, height-1], outline='black', width=3)
-        
-        title_text = title
-        author_text = author.upper()
-        separator = "    "
-        
-        text_fill_color = 'black' if color == "#ffb6c1" else ('#006400' if color == "#e8d5b7" else 'white')
+    def create_book_spine_image(self, width, height, color, title, author, font_size):
+        return create_book_spine_image(width, height, color, title, author, font_size)
 
-        try:
-            title_font = ImageFont.truetype("/System/Library/Fonts/Helvetica.ttc", font_size, index=1)
-            author_font = ImageFont.truetype("/System/Library/Fonts/Helvetica.ttc", font_size, index=2)
-        except IOError:
-            title_font = ImageFont.load_default()
-            author_font = ImageFont.load_default()
-
-        text_img_width = height - 60
-        text_img_height = width - 20
-        
-        text_img = Image.new('RGBA', (text_img_width, text_img_height), (255, 255, 255, 0))
-        text_draw = ImageDraw.Draw(text_img)
-
-        title_length = title_font.getlength(title_text)
-        separator_length = title_font.getlength(separator)
-        author_length = author_font.getlength(author_text)
-        total_length = title_length + separator_length + author_length
-        
-        text_img_center_x = text_img_width // 2
-        text_img_center_y = text_img_height // 2
-
-        start_x = text_img_center_x - (total_length / 2)
-
-        text_draw.text((start_x, text_img_center_y), title_text, fill=text_fill_color, font=title_font, anchor='lm')
-        start_x += title_length + separator_length
-        
-        text_draw.text((start_x, text_img_center_y), author_text, fill=text_fill_color, font=author_font, anchor='lm')
-        
-        rotated = text_img.rotate(90, expand=True)
-        paste_x = (width - rotated.width) // 2
-        paste_y = (height - rotated.height) // 2
-        img.paste(rotated, (paste_x, paste_y), rotated)
-        
-        return ImageTk.PhotoImage(img)
-    
-    # ----------------------------------------------------------------------------------------
-    
-    # -------------------
-    
-    def darken_color(self, color):
-        if isinstance(color, str):
-            color = color.lstrip('#')
-            r, g, b = tuple(int(color[i:i+2], 16) for i in (0, 2, 4))
-        else:
-            r, g, b = color
-        r, g, b = max(0, r - 50), max(0, g - 50), max(0, b - 50)
-        if isinstance(color, str):
-            return f'#{r:02x}{g:02x}{b:02x}'
-        return (r, g, b)
-    
-    def lighten_color(self, color):
-        if isinstance(color, str):
-            color = color.lstrip('#')
-            r, g, b = tuple(int(color[i:i+2], 16) for i in (0, 2, 4))
-        else:
-            r, g, b = color
-        r, g, b = min(255, r + 50), min(255, g + 50), min(255, b + 50)
-        if isinstance(color, str):
-            return f'#{r:02x}{g:02x}{b:02x}'
-        return (r, g, b)
-
-    def start_drag(self, event):
-        self.dragging = True
-    
-    @staticmethod
-    def rect_overlap(rect1, rect2):
-        # rect is (x1, y1, x2, y2)
-        return not (rect1[2] < rect2[0] or # rect1 is to the left of rect2
-                    rect1[0] > rect2[2] or # rect1 is to the right of rect2
-                    rect1[3] < rect2[1] or # rect1 is above rect2
-                    rect1[1] > rect2[3])   # rect1 is below rect2
-
-    def on_drag(self, event):
-        if not hasattr(self, 'dragging') or not self.dragging:
-            return
-        
-        bbox = self.main_canvas.bbox("draggable")
-        if not bbox:
-            return
-        
-        center_x = (bbox[0] + bbox[2]) / 2
-        center_y = (bbox[1] + bbox[3]) / 2
-        dx, dy = event.x - center_x, event.y - center_y
-        self.main_canvas.move("draggable", dx, dy)
-        
-        for slot_idx, slot_rect, _ in self.slot_areas:
-            coords = self.main_canvas.coords(slot_rect)
-            if coords and self.rect_overlap(bbox, coords):
-                self.on_slot_hover(slot_idx)
-                return
-        self.on_slot_leave()
-    
-    def end_drag(self, event):
-        self.dragging = False
-        
-        bbox = self.main_canvas.bbox("draggable") # Get the bounding box of the dragged item
-        if not bbox: # If for some reason bbox is empty, reset and return
-            self.main_canvas.delete("draggable")
-            self.draw_book_to_place()
-            self.on_slot_leave()
-            return
-
-        for slot_idx, slot_rect, _ in self.slot_areas:
-            coords = self.main_canvas.coords(slot_rect)
-            if coords and self.rect_overlap(bbox, coords): # Use rect_overlap here
-                self.selected_slot = slot_idx
-                self.check_answer()
-                return
-        
-        self.main_canvas.delete("draggable")
-        self.draw_book_to_place()
-        self.on_slot_leave()
-    
-    def on_slot_hover(self, slot_idx):
-        if not self.dragging:
-            return
-        if self.hovered_slot == slot_idx:
-            return
-        self.hovered_slot = slot_idx
-        
-        # Get the width of the book being dragged to determine gap size
-        gap_size = self.drag_book_info.get('width', 268) # Default width if not set
-
-        for book in self.book_labels:
-            if book['index'] >= slot_idx:
-                book['current_x'] = book['original_x'] + gap_size
-            else:
-                book['current_x'] = book['original_x']
-            self.redraw_book(book)
-    
-    def on_slot_leave(self):
-        if self.selected_slot is not None:
-            return
-        self.hovered_slot = None
-        for book in self.book_labels:
-            book['current_x'] = book['original_x']
-            self.redraw_book(book)
-    
-    def redraw_book(self, book):
-        self.main_canvas.delete(f"book_{book['index']}")
-        self.draw_book_spine(book['index'], book['current_x'], book['y'],
-                            book['width'], book['height'], book['color'],
-                            book['title'], book['author'], book['font_size'],
-                            book['rank']) # Pass rank to draw_book_spine
+# ------------------- score decision and actions -----------------------------------------------
     
     def check_answer(self):
         if self.selected_slot is None:
             return
         
         current_book = self.books_to_place[self.current_book_index]
-        correct_position = check_book_position(current_book, self.shelf_books)
+        correct_position = check_book_position(current_book, self.shelf_books, sort_by=self.sort_method)
         
         if self.selected_slot == correct_position:
             self.score += 10
             self.shelf_books.insert(correct_position, current_book)
-            messagebox.showinfo("Correct! 🎉", f"Perfect! +10 points!\nScore: {self.score}")
+            # Show overlay on the game canvas
+            show_geese_popup_overlay(self.main_canvas, self.root, self.score, 
+                                    "Perfect! You sorted it correctly! 🪿",
+                                    on_close=self.continue_after_popup)
+
         else:
             temp_list = self.shelf_books + [current_book]
-            # Assumes temp_list books are (title, author, color, rank)
-            book_list = "\n".join([f"'{b[0]}' by {b[1]} (Rank: {b[3]})" for b in sort_books_by_rank(temp_list)]) # Changed sort_books_by_author to sort_books_by_rank
-            messagebox.showwarning("Not quite! 😅", f"You're dumb:\n\n{book_list}")
-            self.shelf_books.insert(correct_position, current_book)
+            sorted_temp = sort_books_by_surname(temp_list)
+            
+            book_list = "\n".join([f"{t} by {a}" for t, a, _ in sorted_temp])
+            # Show overlay on the game canvas
+            show_librarian_angry_overlay(self.main_canvas, self.root, book_list,
+                                        on_close=lambda: self.continue_after_popup_wrong(correct_position, current_book))
+    
+    def continue_after_popup(self):
+        """Continue game after correct answer popup closes."""
+        self.score_label.config(text=f"Score: {self.score}")
+        self.current_book_index += 1
         
+        if self.current_book_index >= self.total_books:
+            self.end_game()
+        else:
+            self.next_book()
+    
+    def continue_after_popup_wrong(self, correct_position, current_book):
+        """Continue game after wrong answer popup closes."""
+        self.shelf_books.insert(correct_position, current_book)
         self.score_label.config(text=f"Score: {self.score}")
         self.current_book_index += 1
         
@@ -685,49 +593,40 @@ class LibraryGame:
         self.hovered_slot = None
         self.selected_slot = None
         self.draw_game()
-    
+
+# ====================================================================================================================
+# -------- Endgame Section -----------------------------------------------------------------------------------------
+# ====================================================================================================================
+
     def end_game(self):
         self.clear_screen()
         self.current_screen = "end_game"
         
-        # Create Home button locally
-        home_btn = tk.Button(
-            self.root, text="Home",
-            font=("Georgia", 12),
-            bg="#4a7c8c", fg="#008080",
-            padx=10, pady=5,
-            command=self.show_title_screen,
-            cursor="hand2"
+        # Mark genre as complete and save progress
+        max_score = self.total_books * 10
+        self.genre_progress = mark_genre_complete(
+            self.genre_progress, 
+            self.selected_genre, 
+            self.score
         )
-        home_btn.place(relx=1.0, rely=0, anchor='ne')
-
-        canvas = tk.Canvas(self.root, bg="#f5f0e8", width=1200, height=900, highlightthickness=0)
-        canvas.pack(fill=tk.BOTH, expand=True)
         
-        canvas.create_text(600, 250, text="Game Complete! 🎉",
-                          font=("Georgia", 48, "bold"), fill="#3d2817")
-        
-        canvas.create_text(600, 350, text=f"Final Score: {self.score}/{self.total_books * 10}",
-                          font=("Georgia", 36), fill="#4a7c8c")
-        
-        if self.score == self.total_books * 10:
-            canvas.create_text(600, 450, text="Perfect! The library is organized! 📚✨",
-                              font=("Georgia", 24, "italic"), fill="#6b4423")
-        else:
-            canvas.create_text(600, 450, text="Great job helping organize! 📚",
-                              font=("Georgia", 24, "italic"), fill="#6b4423")
-        
-        play_again_btn = tk.Button(
-            self.root, text="Play Again",
-            font=("Georgia", 24, "bold"),
-            bg="#4a7c8c", fg="#008080",
-            padx=40, pady=20,
-            command=self.show_title_screen,
-            cursor="hand2"
+        # Show enhanced end screen
+        show_enhanced_end_screen(
+            self.root,
+            self.score,
+            max_score,
+            self.selected_genre,
+            on_play_again=lambda: self.start_game_with_genre(self.selected_genre),
+            on_home=self.show_title_screen,
+            on_continue=self.show_story  # Continue goes to genre selection
         )
-        canvas.create_window(600, 600, window=play_again_btn)
 
-if __name__ == "__main__":
+def main():
+    """Main function to run the game."""
     root = tk.Tk()
     game = LibraryGame(root)
     root.mainloop()
+
+if __name__ == "__main__":
+    main()
+    

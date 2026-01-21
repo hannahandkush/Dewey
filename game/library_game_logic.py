@@ -8,19 +8,43 @@ def get_author_surname(author):
     """
     return author.split()[-1]
 
-def sort_books_by_rank(books): # Renamed function
+def get_author_first_name(author):
     """
-    Sort a list of books by their assigned rank.
+    Extract the first name from an author's full name.
     """
-    # Assuming books are (title, author, color, rank) tuples
-    return sorted(books, key=lambda x: x[3])
+    return author.split()[0]
 
-def check_book_position(book, shelf_books):
+def sort_books_by_surname(books):
+    """
+    Sort a list of books alphabetically by author's surname (last name).
+    """
+    return sorted(books, key=lambda x: get_author_surname(x[1]))
+
+def sort_books_by_first_name(books):
+    """
+    Sort a list of books alphabetically by author's first name.
+    """
+    return sorted(books, key=lambda x: get_author_first_name(x[1]))
+
+def check_book_position(book, shelf_books, sort_by='surname'):
     """
     Calculate the correct position for a book on a sorted shelf.
+    
+    Args:
+        book: The book to place (title, author, color)
+        shelf_books: Current books on shelf
+        sort_by: 'surname' or 'first_name'
+    
+    Returns:
+        int: Correct index position
     """
     temp_list = shelf_books + [book]
-    sorted_list = sort_books_by_rank(temp_list) # Call sort_books_by_rank
+    
+    if sort_by == 'first_name':
+        sorted_list = sort_books_by_first_name(temp_list)
+    else:
+        sorted_list = sort_books_by_surname(temp_list)
+    
     return sorted_list.index(book)
 
 def load_books_by_genre(genre):
@@ -55,7 +79,7 @@ def load_books_by_genre(genre):
             author_surname = book_data.get("author surname", "")
             full_author = f"{author_first} {author_surname}".strip() # Construct full name
             color = genre_colors.get(book_data["Genre"].lower(), default_color)
-            rank = book_data.get("rank") # Get the rank
-            filtered_books.append((title, full_author, color, rank)) # Store rank
+            # Note: We're NOT using rank anymore, just (title, author, color)
+            filtered_books.append((title, full_author, color))
             
     return filtered_books

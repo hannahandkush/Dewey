@@ -1,0 +1,14 @@
+{
+  "classic": {
+    "completed": true,
+    "score": 10
+  },
+  "romance": {
+    "completed": false,
+    "score": 0
+  },
+  "thriller": {
+    "completed": false,
+    "score": 0
+  }
+}
