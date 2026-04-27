@@ -1,9 +1,6 @@
-# 📚 Dewey's Library Sorting Game
-
-**Introduction to Python - Final Project**  
-**ISA Masters in Green Data Science**  
-**Academic Year 2025-2026**
----
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=350&color=gradient&text=📖🪿%20Dewey%20🪿📖&fontSize=50" width="100%" />
+</p>
 
 ## 📖 Project Overview
 
